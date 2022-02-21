@@ -22,7 +22,7 @@ https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
    <Column name="Object_Type" value="Enumeration"/>
    <Column name="Diagram_ID" value="0"/>
    <Column name="Name" value="AccountBalanceTypeValues"/>
-   <Column name="Note" value="Specifies the nature of the balance.
+   <Column name="Note" value="Specifies the nature of the balance and much more..........................................
 https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
 "/>
    <Column name="Backcolor" value="16777215"/>
@@ -357,13 +357,6 @@ Account which is used for settlement. (ISO20022)"/>
    <Column name="RectBottom" value="-392"/>
    <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
   </Row>
-  <Row>
-   <Column name="RectTop" value="-978"/>
-   <Column name="RectLeft" value="470"/>
-   <Column name="RectRight" value="497"/>
-   <Column name="RectBottom" value="-1036"/>
-   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{ab464743-2294-e911-823e-069871e4ec9c}"/>
-  </Row>
- </Table>
+   </Table>
  <Table name="t_diagramlinks"/>
 </Package>
