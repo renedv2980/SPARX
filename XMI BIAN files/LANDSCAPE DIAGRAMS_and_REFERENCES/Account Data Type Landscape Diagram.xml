@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" name="Account Data Type Landscape Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountBalanceTypeValues"/>
+   <Column name="Note" value="Specifies the nature of the balance.
+https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountBalanceTypeValues"/>
+   <Column name="Note" value="Specifies the nature of the balance.
+https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountCurrencyTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountCurrencyTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountDateTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountDateTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountIdentificationTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountIdentificationTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountInvolvementTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AccountInvolvementTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="OpeningBalance"/>
+   <Column name="Note" value="Book balance of the account at the beginning of the account servicer's business day. It always equals the closing book balance from the previous business day. Note: the available balance at the beginning of the account servicer's business day may be different from the closing book balance from the previous business day. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{9f78a931-0948-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ClosingBalance"/>
+   <Column name="Note" value="Balance of the account at the end of the account servicer's business day. It is the sum of the opening balance at the beginning of the day and all entries booked to the account during the account servicer's business day. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{2e07db44-0948-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="CurrentBalance"/>
+   <Column name="Note" value="Balance of the account at a precise moment in time. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{84ba747f-0a48-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AvailableBalance"/>
+   <Column name="Note" value="Balance of money or securities that is at the disposal of the account owner on the date specified. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{408e7aa8-0a48-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LedgerBalance"/>
+   <Column name="Note" value="Ledger balance refers to posted transactions (e.g. limit authorisation amount - posted transactions). (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{686bc722-1d48-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ReserveBalance"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{d9a91b6f-1d48-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FreeBalance"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{914d6e93-1d48-ea11-8289-062ea3b80f12}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PrincipalBalance"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{9680a842-0571-eb11-82fd-06e9e7239879}"/>
+   <Extension Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AccountBaseCurrency"/>
+   <Column name="Note" value="Base currency of the account. (ISO20022)
+"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{24352ade-7dba-e911-8291-062b31ab758a}"/>
+   <Extension Object_ID="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AccountReportingCurrency"/>
+   <Column name="Note" value="Currency used to calculate and report the balance and related entries of an account. (ISO20022)
+"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{79bf96f4-7dba-e911-8291-062b31ab758a}"/>
+   <Extension Object_ID="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AccountSecondaryCurrency"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{6f25b40b-7eba-e911-8291-062b31ab758a}"/>
+   <Extension Object_ID="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="OpeningDate"/>
+   <Column name="Note" value="Date on which the account and related basic services are effectively operational for the account owner. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{f44d7084-2e94-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ClosingDate"/>
+   <Column name="Note" value="Date on which the account and related services cease effectively to be operational for the account owner. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{9ce9b894-2e94-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="BlockingDate"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{f991ee2a-8679-ea11-828d-065e1ffb056c}"/>
+   <Extension Object_ID="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Debit Account"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{1c1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+   <Extension Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Credit Account"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{0c327ef3-8a99-e911-827a-063e87e1daa2}"/>
+   <Extension Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Vostro Acount"/>
+   <Column name="Note" value="In correspondent banking, an account held by one bank on behalf of another bank (the customer bank); the customer bank regards this account as its nostro account. (ECB)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{b81f82fb-8a99-e911-827a-063e87e1daa2}"/>
+   <Extension Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Nostro Account"/>
+   <Column name="Note" value="In correspondent banking, an account held by a customer bank on the books of another bank acting as a service provider. The other bank regards this account as a loro account. (ECB)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{74b32403-8b99-e911-827a-063e87e1daa2}"/>
+   <Extension Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Payment Account"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{bcd54d0a-8b99-e911-827a-063e87e1daa2}"/>
+   <Extension Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Settlement Account"/>
+   <Column name="Note" value="A specific purpose account used to post debit and credit entries as a result of the transaction. (ISO20022)
+
+Account which is used for settlement. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{1676850c-8f7d-eb11-8309-06f448ba7707}"/>
+   <Extension Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="BBAN"/>
+   <Column name="Note" value="Basic Bank Account Number (BBAN) - identifier used nationally by financial institutions, ie, in individual countries, generally as part of a National Account Numbering Scheme(s), to uniquely identify the account of a customer. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{7e1e0eff-2394-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="IBAN"/>
+   <Column name="Note" value='International Bank Account Number (IBAN) - identifier used internationally by financial institutions to uniquely identify the account of a customer. Further specifications of the format and content of the IBAN can be found in the standard ISO 13616 "Banking and related financial services - International Bank Account Number (IBAN)" version 1997-10-01, or later revisions. (ISO20022)'/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{31d4820b-2494-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="UPIC"/>
+   <Column name="Note" value="Universal Payment Identification Code (UPIC) - identifier used by the New York Clearing House to mask confidential data, such as bank accounts and bank routing numbers. UPIC numbers remain with business customers, regardless of banking relationship changes. (ISO20022)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{85afbb3c-2494-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Account Number"/>
+   <Column name="Note" value="String of characters (mainly numbers) used to identify an account."/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{7bb62460-2494-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AccountOwner"/>
+   <Column name="Note" value="Party that legally owns the account. (ISO20022)
+"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{ac464743-2294-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AccountServicer"/>
+   <Column name="Note" value="Party that manages the account on behalf of the account owner, that is manages the registration and booking of entries on the account, calculates balances on the account and provides information about the account. (ISO20022)
+"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{183f514d-2294-e911-823e-069871e4ec9c}"/>
+   <Extension Object_ID="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Account Data Type Landscape Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Account Data Type Landscape Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+   <Extension Package_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="104"/>
+   <Column name="RectRight" value="171"/>
+   <Column name="RectBottom" value="-81"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-479"/>
+   <Column name="RectLeft" value="104"/>
+   <Column name="RectRight" value="138"/>
+   <Column name="RectBottom" value="-545"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-744"/>
+   <Column name="RectLeft" value="41"/>
+   <Column name="RectRight" value="74"/>
+   <Column name="RectBottom" value="-793"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-999"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="84"/>
+   <Column name="RectBottom" value="-1050"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-333"/>
+   <Column name="RectLeft" value="451"/>
+   <Column name="RectRight" value="492"/>
+   <Column name="RectBottom" value="-392"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-978"/>
+   <Column name="RectLeft" value="470"/>
+   <Column name="RectRight" value="497"/>
+   <Column name="RectBottom" value="-1036"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="104"/>
+   <Column name="RectRight" value="171"/>
+   <Column name="RectBottom" value="-81"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-479"/>
+   <Column name="RectLeft" value="104"/>
+   <Column name="RectRight" value="138"/>
+   <Column name="RectBottom" value="-545"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{23352ade-7dba-e911-8291-062b31ab758a}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-744"/>
+   <Column name="RectLeft" value="41"/>
+   <Column name="RectRight" value="74"/>
+   <Column name="RectBottom" value="-793"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{03716973-2e94-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-999"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="84"/>
+   <Column name="RectBottom" value="-1050"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-333"/>
+   <Column name="RectLeft" value="451"/>
+   <Column name="RectRight" value="492"/>
+   <Column name="RectBottom" value="-392"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-978"/>
+   <Column name="RectLeft" value="470"/>
+   <Column name="RectRight" value="497"/>
+   <Column name="RectBottom" value="-1036"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector"/>
+ <Table name="t_diagramlinks"/>
+</Package>

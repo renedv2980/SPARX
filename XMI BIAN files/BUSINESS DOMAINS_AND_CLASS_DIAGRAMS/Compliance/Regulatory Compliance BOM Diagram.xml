@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{42ab641b-6176-e911-823e-067486981364}" name="Regulatory Compliance BOM Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{42ab641b-6176-e911-823e-067486981364}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RegulatoryCompliance"/>
+   <Column name="Note" value="conforming to a regulation
+
+Ability to support operational transparency that demonstrates compliance with some specification, law, policy, restriction, or other rule specified by a regulatory agency. (Adapted from FIBO definition of Regulatory Report)"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{e1e41c30-1fa2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Test"/>
+   <Column name="Note" value="A measure taken  to check the quality, performance, or reliability of (something), especially before putting it into widespread use or practice
+
+Tests are a collection of one or more tests evaluations that can be made to certify a subject. (Behavior Qualifier Type)"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RegulatoryReport"/>
+   <Column name="Note" value="Information needed due to regulatory and statutory requirements. (ISO20022)
+
+A report required to support operational transparency that demonstrates compliance with some specification, law, policy, restriction, or other rule specified by a regulatory agency. (FIBO)
+
+
+
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1d7a8dbe-20a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Assessment"/>
+   <Column name="Note" value="the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria"/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RegulatoryComplianceCheck"/>
+   <Column name="Note" value=" An assessment to check the Regulation Compliance for the bank "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Regulation"/>
+   <Column name="Note" value="A rule used to carry out a law (FIBO)
+
+Business Dictionary: a rule (with or without the coercive power of law) employed in controlling, directing, or managing an activity, organization, or system. 
+
+The set of rules and legislation governing certain actions. 
+https://financial-dictionary.thefreedictionary.com/Regulatory"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{21527d12-20a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Party"/>
+   <Column name="Note" value="A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)"/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RegulatoryComplianceCheckInvolvementTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{7fee0d6b-93af-e911-828c-060cf0984146}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RegulatoryComplianceCheckInvolvementTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{7fee0d6b-93af-e911-828c-060cf0984146}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RuleSet"/>
+   <Column name="Note" value="A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter."/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="PartyRole"/>
+   <Column name="Note" value="A specific role of a specific Party in the specific relationship.  "/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RegulatoryComplianceCheckInvolvement"/>
+   <Column name="Note" value="A specific role of a specific Party in the regulatory compliance check. 
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{8a077a36-8daf-e911-828c-060cf0984146}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ComplianceCheck"/>
+   <Column name="Note" value="An assessment to check the compliance"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{bbdee486-984d-ea11-8289-065500ef61d8}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="Implication"/>
+   <Column name="Note" value="Outline of the possible implications of non-compliance."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{4e747d0b-96af-e911-828c-060cf0984146}"/>
+   <Extension Object_ID="{e1e41c30-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="TestResult"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ae15267c-9d92-e911-823e-06332a9c23ba}"/>
+   <Extension Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="TestGuidance"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{cbe0da62-6393-e911-823e-065576aa37f8}"/>
+   <Extension Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="TestType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{17bfac43-4cb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="TestDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{7cd07857-4cb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3c005ebe-a272-e911-823e-067c7fd4c978}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentMethod"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{42005ebe-a272-e911-823e-067c7fd4c978}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentSchedule"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{7bdd12c5-0577-e911-823e-0663ff6583c4}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{2577ab32-0777-e911-823e-0663ff6583c4}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentModel"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{110ee713-0877-e911-823e-0663ff6583c4}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentDateTime"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8626f03d-377d-e911-823e-069ad1a2e648}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentResult"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1f36dd6d-377d-e911-823e-069ad1a2e648}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentSupportingDocument"/>
+   <Column name="Note" value="Document that provides background or corroborating information regarding an assessment(s)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{06b88e61-24a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentRepresentingDocument"/>
+   <Column name="Note" value="Document that represents the result of an assessment(s)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{da6a7970-24a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentRequiredAdjustment"/>
+   <Column name="Note" value="Change that the assessment reveals is needed."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8c5f059a-24a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentRequirement"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0ef47758-2ea2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentExpiryDate"/>
+   <Column name="Note" value="Date when the assessment expires. (ISO20022)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{2425862b-00bd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RegulatoryComplianceCheckResult"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{76b6a1c7-ceae-e911-828c-06d72c197ec4}"/>
+   <Extension Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RegulationDefinition"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ff457486-94af-e911-828c-060cf0984146}"/>
+   <Extension Object_ID="{21527d12-20a2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyName"/>
+   <Column name="Note" value="Name by which a party is known and which is usually used to identify that party. (ISO20022)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d8f7f366-21cf-e911-8296-06bf764cb4bc}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyType"/>
+   <Column name="Note" value="Specifies the type of party in different business contexts. (ISO20022)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{b1f7b3d8-21cf-e911-8296-06bf764cb4bc}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyDateTime"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d6ed5669-40f6-e911-82bd-06a31b9588ce}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{449e231b-a846-ea11-8289-06f8a6a00ed0}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RegulatoryAuthority"/>
+   <Column name="Note" value="Government body formed or mandated under the terms of a legislative act (statute) to ensure compliance with the provisions of the act, and in carrying out its purpose. Also called regulatory agency or regulatory body. (Business Dictionary)
+
+Entity requiring the regulatory reporting information. (ISO20022)
+
+"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{80ee0d6b-93af-e911-828c-060cf0984146}"/>
+   <Extension Object_ID="{7fee0d6b-93af-e911-828c-060cf0984146}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetDefinition"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{987fcf6e-c4cf-e911-8296-06957f3f468a}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetInterpretation"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{212d1c6a-2fd6-e911-8296-06e1705194c6}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1cde0ffd-2fd6-e911-8296-06e1705194c6}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetName"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{547527cd-b97d-eb11-8309-06f448ba7707}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9e2d918a-bf7d-eb11-8309-06f448ba7707}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyRoleType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{83c28dd9-29e9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyRoleName"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{7ebb122f-2ce9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyRoleValidityPeriod"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{fb571d5e-2ce9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyInvolvementType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c5867926-2de9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RegulatoryComplianceCheckInvolvementType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ab2c890b-93af-e911-828c-060cf0984146}"/>
+   <Extension Object_ID="{8a077a36-8daf-e911-828c-060cf0984146}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ComplianceCheckType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{aae22681-1fab-ea11-829f-0691f30ba14c}"/>
+   <Extension Object_ID="{bbdee486-984d-ea11-8289-065500ef61d8}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{41372bdd-21b2-e911-828c-064878c57b7e}"/>
+   <Extension End_Object_ID="{5314d145-3876-e911-823e-065f1d1f71b2}" Start_Object_ID="{1d7a8dbe-20a2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{bd331e30-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{bbdee486-984d-ea11-8289-065500ef61d8}" Start_Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{bd331e30-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{bbdee486-984d-ea11-8289-065500ef61d8}" Start_Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4d531fe3-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}" Start_Object_ID="{21527d12-20a2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4d531fe3-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}" Start_Object_ID="{21527d12-20a2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{6b2cd864-92af-e911-828c-060cf0984146}"/>
+   <Extension End_Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}" Start_Object_ID="{8a077a36-8daf-e911-828c-060cf0984146}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{6b2cd864-92af-e911-828c-060cf0984146}"/>
+   <Extension End_Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}" Start_Object_ID="{8a077a36-8daf-e911-828c-060cf0984146}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{b694e5d7-984d-ea11-8289-065500ef61d8}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{bbdee486-984d-ea11-8289-065500ef61d8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{b694e5d7-984d-ea11-8289-065500ef61d8}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{bbdee486-984d-ea11-8289-065500ef61d8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4ea05e93-ff76-e911-823e-0663ff6583c4}"/>
+   <Extension End_Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}" Start_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4503bd81-8257-e911-8237-0645314e65ac}"/>
+   <Extension End_Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}" Start_Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{d5a80838-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{21527d12-20a2-e911-8280-068b5ca1cd1a}" Start_Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{58e5554f-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{e1e41c30-1fa2-e911-8280-068b5ca1cd1a}" Start_Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{03afb156-21a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension End_Object_ID="{1d7a8dbe-20a2-e911-8280-068b5ca1cd1a}" Start_Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{534171dd-91af-e911-828c-060cf0984146}"/>
+   <Extension End_Object_ID="{8a077a36-8daf-e911-828c-060cf0984146}" Start_Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Regulatory Compliance BOM Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{42ab641b-6176-e911-823e-067486981364}"/>
+   <Extension Package_ID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-932"/>
+   <Column name="RectLeft" value="773"/>
+   <Column name="RectRight" value="793"/>
+   <Column name="RectBottom" value="-978"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{e1e41c30-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="1188"/>
+   <Column name="RectRight" value="1208"/>
+   <Column name="RectBottom" value="-75"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-484"/>
+   <Column name="RectLeft" value="1135"/>
+   <Column name="RectRight" value="1155"/>
+   <Column name="RectBottom" value="-528"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{1d7a8dbe-20a2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="751"/>
+   <Column name="RectRight" value="771"/>
+   <Column name="RectBottom" value="-75"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-476"/>
+   <Column name="RectLeft" value="714"/>
+   <Column name="RectRight" value="734"/>
+   <Column name="RectBottom" value="-535"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{83f1ba60-1fa2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-476"/>
+   <Column name="RectLeft" value="272"/>
+   <Column name="RectRight" value="292"/>
+   <Column name="RectBottom" value="-533"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{21527d12-20a2-e911-8280-068b5ca1cd1a}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-76"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-121"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-892"/>
+   <Column name="RectLeft" value="55"/>
+   <Column name="RectRight" value="79"/>
+   <Column name="RectBottom" value="-992"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{7fee0d6b-93af-e911-828c-060cf0984146}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-153"/>
+   <Column name="RectLeft" value="272"/>
+   <Column name="RectRight" value="292"/>
+   <Column name="RectBottom" value="-198"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-353"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-398"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-707"/>
+   <Column name="RectLeft" value="45"/>
+   <Column name="RectRight" value="65"/>
+   <Column name="RectBottom" value="-811"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{8a077a36-8daf-e911-828c-060cf0984146}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-246"/>
+   <Column name="RectLeft" value="751"/>
+   <Column name="RectRight" value="771"/>
+   <Column name="RectBottom" value="-290"/>
+   <Extension Diagram_ID="{42ab641b-6176-e911-823e-067486981364}" Object_ID="{bbdee486-984d-ea11-8289-065500ef61d8}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{41372bdd-21b2-e911-828c-064878c57b7e}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{bd331e30-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{bd331e30-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4d531fe3-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4d531fe3-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{6b2cd864-92af-e911-828c-060cf0984146}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{6b2cd864-92af-e911-828c-060cf0984146}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{b694e5d7-984d-ea11-8289-065500ef61d8}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{b694e5d7-984d-ea11-8289-065500ef61d8}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4ea05e93-ff76-e911-823e-0663ff6583c4}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{d5a80838-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{58e5554f-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{b694e5d7-984d-ea11-8289-065500ef61d8}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{03afb156-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{bd331e30-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4d531fe3-21a2-e911-8280-068b5ca1cd1a}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{534171dd-91af-e911-828c-060cf0984146}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4503bd81-8257-e911-8237-0645314e65ac}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{6b2cd864-92af-e911-828c-060cf0984146}" DiagramID="{42ab641b-6176-e911-823e-067486981364}"/>
+  </Row>
+ </Table>
+</Package>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{c269a923-90c5-e911-8296-06227606fcb6}" name="Resource Allocation Helper Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Allocation"/>
+   <Column name="Note" value="The act of assignment or the act of allocating. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+   <Extension Package_ID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Resource"/>
+   <Column name="Note" value="An object, mechanism, or collection of objects that either exists naturally or is created or assembled by people or by systems."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension Package_ID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ResourceAllocation"/>
+   <Column name="Note" value="An assignment of a resource to a party or system."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension Package_ID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Criterion"/>
+   <Column name="Note" value="A principle or standard by which something may be judged or decided.
+
+Read more: http://www.businessdictionary.com/definition/criterion.html"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{c16435c2-0958-ea11-8289-060c7a9911f6}"/>
+   <Extension Package_ID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="AllocationAmount"/>
+   <Column name="Note" value="The amount allocated"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9677003a-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDuration"/>
+   <Column name="Note" value="duration for which the allocation is enforced"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{81584064-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDirection"/>
+   <Column name="Note" value="Indication if it is an allocation or recall"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{16c6d6e6-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationStatus"/>
+   <Column name="Note" value="A state expressing if the allocation is pending confirmation, allocated, recalled, etc."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{92b406cf-2781-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ec27f701-2028-eb11-82d4-06b1e967d8ed}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ResourceStatus"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ca869180-a1b4-ea11-829f-0655b407fe5a}"/>
+   <Extension Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ResourceAvailabilitySchedule"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1f41c88a-a1b4-ea11-829f-0655b407fe5a}"/>
+   <Extension Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ResourceLocation"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c8a025a5-a1b4-ea11-829f-0655b407fe5a}"/>
+   <Extension Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ResourceQualificationProfile"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{6e8583b9-a1b4-ea11-829f-0655b407fe5a}"/>
+   <Extension Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Resource Allocation Helper Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+   <Extension Package_ID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="78"/>
+   <Column name="RectBottom" value="-85"/>
+   <Extension Diagram_ID="{c269a923-90c5-e911-8296-06227606fcb6}" Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-459"/>
+   <Column name="RectLeft" value="568"/>
+   <Column name="RectRight" value="597"/>
+   <Column name="RectBottom" value="-506"/>
+   <Extension Diagram_ID="{c269a923-90c5-e911-8296-06227606fcb6}" Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-459"/>
+   <Column name="RectLeft" value="52"/>
+   <Column name="RectRight" value="81"/>
+   <Column name="RectBottom" value="-506"/>
+   <Extension Diagram_ID="{c269a923-90c5-e911-8296-06227606fcb6}" Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-38"/>
+   <Column name="RectLeft" value="494"/>
+   <Column name="RectRight" value="514"/>
+   <Column name="RectBottom" value="-82"/>
+   <Extension Diagram_ID="{c269a923-90c5-e911-8296-06227606fcb6}" Object_ID="{c16435c2-0958-ea11-8289-060c7a9911f6}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{df0d7a4b-1c91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension End_Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}" Start_Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{fa959ee7-0958-ea11-8289-060c7a9911f6}"/>
+   <Extension End_Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}" Start_Object_ID="{c16435c2-0958-ea11-8289-060c7a9911f6}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2f795aec-621f-eb11-82d0-06351b9f7777}"/>
+   <Extension End_Object_ID="{c16435c2-0958-ea11-8289-060c7a9911f6}" Start_Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{c27bdb2f-1e91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension End_Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}" Start_Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2d80987e-2091-e911-823e-06f3e7d1f9c0}"/>
+   <Extension End_Object_ID="{c484df1b-1e91-e911-823e-06f3e7d1f9c0}" Start_Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{df0d7a4b-1c91-e911-823e-06f3e7d1f9c0}" DiagramID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{fa959ee7-0958-ea11-8289-060c7a9911f6}" DiagramID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2d80987e-2091-e911-823e-06f3e7d1f9c0}" DiagramID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{df0d7a4b-1c91-e911-823e-06f3e7d1f9c0}" DiagramID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{c27bdb2f-1e91-e911-823e-06f3e7d1f9c0}" DiagramID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2f795aec-621f-eb11-82d0-06351b9f7777}" DiagramID="{c269a923-90c5-e911-8296-06227606fcb6}"/>
+  </Row>
+ </Table>
+</Package>

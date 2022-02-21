@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{5dbcab57-c801-eb11-82be-068d3e7acd11}" name="Branch Location Management BOM Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Branch"/>
+   <Column name="Note" value="A point of representation where a bank or financial institution offers a wide array of face-to-face and automated services to its customers.
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{291e5767-0e28-eb11-82d4-06b1e967d8ed}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ManagementPlan"/>
+   <Column name="Note" value="The course of action to realize goals (of an operational unit of an enterprise).
+
+The management and oversight while running an operational unit of an enterprise. (Generic Artifact)
+
+
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Duty"/>
+   <Column name="Note" value="A responsibility of task (under management).
+
+Duties are a collection of one or more responsibilities or tasks under management. (Behavior Qualifier Type)"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Location"/>
+   <Column name="Note" value="The definition of an addressable space/position both in real and virtual environments with associated uses and entitlements"/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="BranchLocation"/>
+   <Column name="Note" value="The location of a branch"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{eca9e160-f324-eb11-82d4-060d98156e5b}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="BranchLocationManagementPlanDuty"/>
+   <Column name="Note" value="A duty of Branch Location Management Plan"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{b9a558e7-a83f-eb11-82e3-065f2c4c8ed1}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="BranchLocationManagementPlan"/>
+   <Column name="Note" value="A plan to manage and oversee branch activity, assign resources to optimize branch performance"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{b5e678bc-f424-eb11-82d4-060d98156e5b}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="ManagementPlanPeriod"/>
+   <Column name="Note" value="The time period addressed by the management plan."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d9d5a7a3-1757-ea11-8289-06a605eb4d64}"/>
+   <Extension Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ManagementPlanGoal"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9b86d8bd-1757-ea11-8289-06a605eb4d64}"/>
+   <Extension Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ManagementPlanType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0e5ac279-d5e2-ea11-82b8-068800dddbf7}"/>
+   <Extension Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Management Plan Description"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{38856e94-d5e2-ea11-82b8-068800dddbf7}"/>
+   <Extension Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="WorkTaskType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{6e430280-2c5a-ea11-8290-06eaa2e18406}"/>
+   <Extension Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="WorkTaskDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{5ebf7d88-2c5a-ea11-8290-06eaa2e18406}"/>
+   <Extension Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="WorkTaskResult"/>
+   <Column name="Note" value="The outcome or result of the work task "/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{e3abda96-2c5a-ea11-8290-06eaa2e18406}"/>
+   <Extension Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="WorkTaskDateTime"/>
+   <Column name="Note" value="Key dates associated with the work task"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ff3c149f-2c5a-ea11-8290-06eaa2e18406}"/>
+   <Extension Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="WorkTaskWorkProduct"/>
+   <Column name="Note" value="File of consolidated notes, evaluations and recommendations for the work task"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0b594fb2-2c5a-ea11-8290-06eaa2e18406}"/>
+   <Extension Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationDescription"/>
+   <Column name="Note" value="A description of the property, particularly if it has landmark characteristics."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{e731883b-d0d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationDateTime"/>
+   <Column name="Note" value="Key dates associated with the directory entry (e.g. open date, refresh date)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8048356c-d0d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationStatus"/>
+   <Column name="Note" value="The tracked status (e.g. under construction or repair, inhabited, vacant)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0095b775-d0d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationType"/>
+   <Column name="Note" value="Type of location (e.g. building, point of interest, virtual location/device)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c8da42a8-d0d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationZoningType"/>
+   <Column name="Note" value="The planning or zoning status (e.g. residential, commercial, industrial)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{f8d2c2b9-d0d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationNeighborhoodType"/>
+   <Column name="Note" value="The general purpose and neighborhood of the property  (e.g. residential, industrial, commercial)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1f5d9cc2-d0d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationConstructionType"/>
+   <Column name="Note" value="The construction approach for a property at the location (e.g. era and architecture as might be used in valuation)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1736d338-d1d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationOccupancyType"/>
+   <Column name="Note" value="The type of occupancy (e.g. residency, business, retail, entertainment)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{f2546806-d2d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationValue"/>
+   <Column name="Note" value="The estimated (book) value of the property at the location - rental and purchase as appropriate."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{715fcc33-d2d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationCapacity"/>
+   <Column name="Note" value="An indication of the size or scale of the property where appropriate (e.g. 4 bedroom, 600 seat auditorium, 40 cover restaurant)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{368c7152-d2d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{51262755-cd48-ea11-8289-064c9ffef37a}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LocationAddress"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{01683582-cf48-ea11-8289-064c9ffef37a}"/>
+   <Extension Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="BranchLocationManagementPlanDutyType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{68e0bd22-a93f-eb11-82e3-065f2c4c8ed1}"/>
+   <Extension Object_ID="{b9a558e7-a83f-eb11-82e3-065f2c4c8ed1}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4948f525-d37c-eb11-8309-066fc2da13f9}"/>
+   <Extension End_Object_ID="{6472836c-9c67-eb11-82f6-06f5e4900cbd}" Start_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4948f525-d37c-eb11-8309-066fc2da13f9}"/>
+   <Extension End_Object_ID="{6472836c-9c67-eb11-82f6-06f5e4900cbd}" Start_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4948f525-d37c-eb11-8309-066fc2da13f9}"/>
+   <Extension End_Object_ID="{6472836c-9c67-eb11-82f6-06f5e4900cbd}" Start_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4948f525-d37c-eb11-8309-066fc2da13f9}"/>
+   <Extension End_Object_ID="{6472836c-9c67-eb11-82f6-06f5e4900cbd}" Start_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4948f525-d37c-eb11-8309-066fc2da13f9}"/>
+   <Extension End_Object_ID="{6472836c-9c67-eb11-82f6-06f5e4900cbd}" Start_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{810f2cc6-f424-eb11-82d4-060d98156e5b}"/>
+   <Extension End_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}" Start_Object_ID="{b5e678bc-f424-eb11-82d4-060d98156e5b}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{ee1be7ed-a83f-eb11-82e3-065f2c4c8ed1}"/>
+   <Extension End_Object_ID="{b9a558e7-a83f-eb11-82e3-065f2c4c8ed1}" Start_Object_ID="{b5e678bc-f424-eb11-82d4-060d98156e5b}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="1..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{34a078c3-1528-eb11-82d4-06b1e967d8ed}"/>
+   <Extension End_Object_ID="{eca9e160-f324-eb11-82d4-060d98156e5b}" Start_Object_ID="{291e5767-0e28-eb11-82d4-06b1e967d8ed}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{770c0eb6-1528-eb11-82d4-06b1e967d8ed}"/>
+   <Extension End_Object_ID="{eca9e160-f324-eb11-82d4-060d98156e5b}" Start_Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2b6fe0cc-f424-eb11-82d4-060d98156e5b}"/>
+   <Extension End_Object_ID="{b5e678bc-f424-eb11-82d4-060d98156e5b}" Start_Object_ID="{eca9e160-f324-eb11-82d4-060d98156e5b}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{83e8e4c4-6675-e911-823e-064d1e9fbc72}"/>
+   <Extension End_Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}" Start_Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Branch Location Management BOM Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+   <Extension Package_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-661"/>
+   <Column name="RectLeft" value="35"/>
+   <Column name="RectRight" value="55"/>
+   <Column name="RectBottom" value="-705"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{291e5767-0e28-eb11-82d4-06b1e967d8ed}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="562"/>
+   <Column name="RectRight" value="582"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="1004"/>
+   <Column name="RectRight" value="1024"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="35"/>
+   <Column name="RectRight" value="55"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-369"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-413"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{eca9e160-f324-eb11-82d4-060d98156e5b}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-384"/>
+   <Column name="RectLeft" value="1035"/>
+   <Column name="RectRight" value="1055"/>
+   <Column name="RectBottom" value="-476"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{b9a558e7-a83f-eb11-82e3-065f2c4c8ed1}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-384"/>
+   <Column name="RectLeft" value="530"/>
+   <Column name="RectRight" value="550"/>
+   <Column name="RectBottom" value="-444"/>
+   <Extension Diagram_ID="{5dbcab57-c801-eb11-82be-068d3e7acd11}" Object_ID="{b5e678bc-f424-eb11-82d4-060d98156e5b}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4948f525-d37c-eb11-8309-066fc2da13f9}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4948f525-d37c-eb11-8309-066fc2da13f9}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4948f525-d37c-eb11-8309-066fc2da13f9}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4948f525-d37c-eb11-8309-066fc2da13f9}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4948f525-d37c-eb11-8309-066fc2da13f9}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{810f2cc6-f424-eb11-82d4-060d98156e5b}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ee1be7ed-a83f-eb11-82e3-065f2c4c8ed1}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{83e8e4c4-6675-e911-823e-064d1e9fbc72}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{810f2cc6-f424-eb11-82d4-060d98156e5b}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{770c0eb6-1528-eb11-82d4-06b1e967d8ed}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2b6fe0cc-f424-eb11-82d4-060d98156e5b}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{34a078c3-1528-eb11-82d4-06b1e967d8ed}" DiagramID="{5dbcab57-c801-eb11-82be-068d3e7acd11}"/>
+  </Row>
+ </Table>
+</Package>

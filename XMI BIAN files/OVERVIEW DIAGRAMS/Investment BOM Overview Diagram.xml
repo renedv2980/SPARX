@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" name="Investment BOM Overview Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="InvestmentPortfolioManagementAgreement"/>
+   <Column name="Note" value="A formal agreement between a registered investment adviser and an investor stipulating the terms under which the adviser is authorized to act on behalf of the investor to manage the assets listed in the agreement.
+
+Read more: http://www.businessdictionary.com/definition/investment-management-agreement.html"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{4e0962c7-c6ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="InvestmentPortfolioManagementAgreementTermAndCondition"/>
+   <Column name="Note" value="Term and Condition that is making up the agreement that govern the management of the investment portfolio. Note that there may be many different types of terms and clauses making up the overall policy"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{61e9f6e1-09af-ea11-829f-06c5ce6fa94e}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AgreementCondition"/>
+   <Column name="Note" value="Condition is a premise upon which the fulfillment of an agreement depends 
+
+Condition is applied to an instance of an agreement. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1ab9690c-f297-e911-827a-06d89370a58e}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialInstrument"/>
+   <Column name="Note" value="A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialMarket"/>
+   <Column name="Note" value="A marketplace, where creation and trading of financial instruments take place. 
+
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{5c47482d-d8ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Market"/>
+   <Column name="Note" value="A Physical or virtual space where buyers, sellers, market authorities and other market parties trade products and services according to market rules."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{811ed017-1794-e911-823e-069871e4ec9c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="InvestmentAccount"/>
+   <Column name="Note" value='Account for keeping the position of "non-cash and cash financial instrument holding" related to the InvestmentAccountAgreement. 
+
+
+Account between an investor(s) and a fund manager or a fund. The account can contain holdings in any investment fund or investment fund class managed (or distributed) by the fund manager, within the same fund family. (ISO20022)
+
+A type of financial account that contains a deposit of funds and/or securities that is held at a financial institution.  The typical objectives of an Investment Account are to achieve long term growth, income or capital preservation from the deposited asset portfolio.
+https://www.financialadvisory.com/dictionary/term/investment-account/#:~:text=Investment%20Account,held%20at%20a%20financial%20institution.
+
+An account holding securities such as index funds (ETF, trackers), stocks or bonds.
+
+
+Account held at a financial facility for the purpose of a long term investment for capital preservation, growth or fixed income. Financial facilities for investment accounts include banks, insurance companies, and brokerage houses. Read more: http://www.investorwords.com/11655/investment_account.html#ixzz6PcFc5pTT'/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{43bcacca-69a9-ea11-829f-06478228ed28}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="InvestmentPortfolio"/>
+   <Column name="Note" value="A set of financial assets/instruments owned by an investor 
+
+Comment:
+- It may include bonds, stocks, currencies, cash and cash equivalents, and commodities. 
+- Investors aim for a return by mixing these securities in a way that reflects their risk tolerance and financial goals. https://smartasset.com/investing/what-is-an-investment-portfolio
+- Portfolio investments are passive investments, as they do not entail active management or control of the issuing company.
+- A portfolio investment is an asset that is purchased in the expectation that it will earn a return or grow in value, or both.
+- A portfolio investment is passive, unlike a direct investment, which implies hands-on management.
+- Risk tolerance and time horizon are key factors in selecting any portfolio investment.
+https://www.investopedia.com/terms/p/portfolio-investment.asp"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{92b4cd6c-1eab-ea11-829f-0691f30ba14c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialAsset"/>
+   <Column name="Note" value="A financial asset is an asset whose value comes from a contractual claim. These assets are frequently traded. 
+https://www.accountingtools.com/articles/2017/5/9/financial-asset"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialMarketResearch"/>
+   <Column name="Note" value="The process of gathering, analyzing and interpreting information about a financial market, about the financial instruments to be offered for sale in that market, and about the past, present and potential customers. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{62e630b8-ddab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="InvestmentPortfolioManagementArrangement"/>
+   <Column name="Note" value="An arrangement within the investment Portfolio Management Agreement like:
+- Advisory Arrangement: give or not to give the advice before to do something 
+- Investment Strategy Arrangement: Defensive vs  Offensive. Defensive investment strategies are designed to deliver protection first and modest growth second. With an offensive or aggressive investment strategy, by contrast, an investor tries to take advantage of a rising market by purchasing securities that are outperforming for a given level of risk and volatility. (Investopedia)
+- Market Trading Arrangement  
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Security"/>
+   <Column name="Note" value="Financial instruments representing a sum of rights of the investor vis-a-vis the issuer. (ISO20022)
+
+
+A fungible, negotiable financial instrument that holds some type of monetary value used to raise capital in public and private markets.
+
+There are primarily three types of securities: equity - which provide ownership rights to holders, debt - which are essentially loans that are repaid with periodic payments, and hybrid - which combine aspects of debt and equity.
+https://www.investopedia.com/terms/s/security.asp
+
+Fungibility is the ability of a good or asset to be interchanged with other individual goods or assets of the same type. 
+https://www.investopedia.com/terms/f/fungibility.asp
+
+Financing or investment instruments (some negotiable, others not) bought and sold in financial markets, such as bonds, debentures, notes, options, shares (stocks), and warrants. See also security.
+
+Read more: http://www.businessdictionary.com/definition/securities.html
+
+
+A security is a financial instrument issued by a business entity or government, which gives the buyer the right to either interest payments or a share of the earnings of the issuer. 
+Examples of securities are stocks, bonds, options, and warrants. 
+https://www.accountingtools.com/articles/2017/5/16/security?rq=security"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="InvestmentPortfolioAnalysis"/>
+   <Column name="Note" value="An evaluation of the investment profile including performance analysis, sensitivity analysis, valuation and etc. 
+
+The process of studying an investment portfolio to determine its appropriateness for a given investor's needs, preferences, and resources.
+http://www.newbore-wealth.com/investment-portfolio-analysis/
+
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{d8ea56fc-eeab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="SecuritiesPosition"/>
+   <Column name="Note" value="The state of owning or owing a security "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{5a795355-84a9-ea11-829f-06478228ed28}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="AgreementConditionType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0144f9d1-0daf-ea11-829f-06c5ce6fa94e}"/>
+   <Extension Object_ID="{1ab9690c-f297-e911-827a-06d89370a58e}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AgreementConditionDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ec4183e1-0daf-ea11-829f-06c5ce6fa94e}"/>
+   <Extension Object_ID="{1ab9690c-f297-e911-827a-06d89370a58e}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialInstrumentType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{af662165-8259-eb11-82e3-069263446f67}"/>
+   <Extension Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialInstrumentIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8b0201f0-8359-eb11-82e3-069263446f67}"/>
+   <Extension Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialInstrumentName"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3b0bb741-e067-eb11-82f6-06f5e4900cbd}"/>
+   <Extension Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialAssetType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{f7e658cf-baa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="SecurityType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{23717070-87a9-ea11-829f-06478228ed28}"/>
+   <Extension Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="SecurityAmount"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3f23a10d-1eab-ea11-829f-0691f30ba14c}"/>
+   <Extension Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="SecurityPrice"/>
+   <Column name="Note" value="The prevailing bank buy/sell quote for the security"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3cdec730-21ab-ea11-829f-0691f30ba14c}"/>
+   <Extension Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2f750a31-e1ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{b2f7829a-0a68-e911-8237-06dd5e24f7bc}" Start_Object_ID="{4e0962c7-c6ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{ab0e1ef5-09af-ea11-829f-06c5ce6fa94e}"/>
+   <Extension End_Object_ID="{1ab9690c-f297-e911-827a-06d89370a58e}" Start_Object_ID="{61e9f6e1-09af-ea11-829f-06c5ce6fa94e}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{a85b7c71-8759-eb11-82e3-069263446f67}"/>
+   <Extension End_Object_ID="{811ed017-1794-e911-823e-069871e4ec9c}" Start_Object_ID="{5c47482d-d8ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{745329fb-6ba9-ea11-829f-06478228ed28}"/>
+   <Extension End_Object_ID="{9fe05cf9-fd60-e911-8237-068e13695e26}" Start_Object_ID="{43bcacca-69a9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}"/>
+   <Extension End_Object_ID="{30a4d16d-6080-e911-823e-061de61e9206}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{5e044e36-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}"/>
+   <Extension End_Object_ID="{30a4d16d-6080-e911-823e-061de61e9206}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{5e044e36-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{06eea752-e0ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{62e630b8-ddab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2b750a31-e1ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{dd3cc0aa-0a68-e911-8237-06dd5e24f7bc}" Start_Object_ID="{a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{43693f2d-7ea9-ea11-829f-06478228ed28}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{43693f2d-7ea9-ea11-829f-06478228ed28}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{43693f2d-7ea9-ea11-829f-06478228ed28}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{43693f2d-7ea9-ea11-829f-06478228ed28}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{889e1f09-f0ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{6aa1554b-7675-e911-823e-064d1e9fbc72}" Start_Object_ID="{d8ea56fc-eeab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{00d30bbf-ddab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{62e630b8-ddab-ea11-829f-067a4ad4fc9c}" Start_Object_ID="{5c47482d-d8ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{097e1767-7eb0-ea11-829f-06e9ae0e1608}"/>
+   <Extension End_Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}" Start_Object_ID="{43bcacca-69a9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="1..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{dcbadde3-c6ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{4e0962c7-c6ab-ea11-829f-067a4ad4fc9c}" Start_Object_ID="{92b4cd6c-1eab-ea11-829f-0691f30ba14c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{0eb58b24-c6af-ea11-829f-0681374b35cc}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{5c47482d-d8ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="DestIsAggregate" value="2"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="1..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{be87c7fa-c6ab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c}" Start_Object_ID="{4e0962c7-c6ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{349eb1cc-cbab-ea11-829f-067a4ad4fc9c}"/>
+   <Extension End_Object_ID="{d8ea56fc-eeab-ea11-829f-067a4ad4fc9c}" Start_Object_ID="{92b4cd6c-1eab-ea11-829f-0691f30ba14c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{97cc6eec-09af-ea11-829f-06c5ce6fa94e}"/>
+   <Extension End_Object_ID="{61e9f6e1-09af-ea11-829f-06c5ce6fa94e}" Start_Object_ID="{4e0962c7-c6ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{c9202876-84a9-ea11-829f-06478228ed28}"/>
+   <Extension End_Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}" Start_Object_ID="{5a795355-84a9-ea11-829f-06478228ed28}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Investment BOM Overview Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+   <Extension Package_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-507"/>
+   <Column name="RectLeft" value="809"/>
+   <Column name="RectRight" value="844"/>
+   <Column name="RectBottom" value="-589"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{4e0962c7-c6ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-645"/>
+   <Column name="RectLeft" value="1356"/>
+   <Column name="RectRight" value="1376"/>
+   <Column name="RectBottom" value="-753"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{61e9f6e1-09af-ea11-829f-06c5ce6fa94e}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="398"/>
+   <Column name="RectRight" value="418"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="840"/>
+   <Column name="RectRight" value="860"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{5c47482d-d8ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-337"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-382"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{43bcacca-69a9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-445"/>
+   <Column name="RectLeft" value="398"/>
+   <Column name="RectRight" value="427"/>
+   <Column name="RectBottom" value="-489"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{92b4cd6c-1eab-ea11-829f-0691f30ba14c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-291"/>
+   <Column name="RectLeft" value="588"/>
+   <Column name="RectRight" value="608"/>
+   <Column name="RectBottom" value="-336"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="1219"/>
+   <Column name="RectRight" value="1239"/>
+   <Column name="RectBottom" value="-77"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{62e630b8-ddab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-476"/>
+   <Column name="RectLeft" value="1356"/>
+   <Column name="RectRight" value="1376"/>
+   <Column name="RectBottom" value="-556"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{a0d4a7f2-c6ab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-660"/>
+   <Column name="RectLeft" value="198"/>
+   <Column name="RectRight" value="218"/>
+   <Column name="RectBottom" value="-705"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{ffe016a6-7ba9-ea11-829f-06478228ed28}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-876"/>
+   <Column name="RectLeft" value="383"/>
+   <Column name="RectRight" value="403"/>
+   <Column name="RectBottom" value="-927"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{d8ea56fc-eeab-ea11-829f-067a4ad4fc9c}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-1076"/>
+   <Column name="RectLeft" value="198"/>
+   <Column name="RectRight" value="218"/>
+   <Column name="RectBottom" value="-1120"/>
+   <Extension Diagram_ID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}" Object_ID="{5a795355-84a9-ea11-829f-06478228ed28}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2f750a31-e1ab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ab0e1ef5-09af-ea11-829f-06c5ce6fa94e}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{a85b7c71-8759-eb11-82e3-069263446f67}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{745329fb-6ba9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5e044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5e044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{06eea752-e0ab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2b750a31-e1ab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{43693f2d-7ea9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{43693f2d-7ea9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{43693f2d-7ea9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{43693f2d-7ea9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{889e1f09-f0ab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{dcbadde3-c6ab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{097e1767-7eb0-ea11-829f-06e9ae0e1608}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5e044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{00d30bbf-ddab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{43693f2d-7ea9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{0eb58b24-c6af-ea11-829f-0681374b35cc}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{c9202876-84a9-ea11-829f-06478228ed28}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{be87c7fa-c6ab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{349eb1cc-cbab-ea11-829f-067a4ad4fc9c}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{97cc6eec-09af-ea11-829f-06c5ce6fa94e}" DiagramID="{5ea7e7a9-c4af-ea11-829f-0681374b35cc}"/>
+  </Row>
+ </Table>
+</Package>

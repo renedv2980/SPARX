@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{0919cb89-24d3-e911-8296-06b94e7647ce}" name="Log Helper Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="LogEntry"/>
+   <Column name="Note" value="Posting events to the log."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="LogEntryInvolvement"/>
+   <Column name="Note" value="A specific party who plays a specific role in the entry log. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{d6f08186-25d3-e911-8296-06b94e7647ce}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="LogEntryPositionAssignment"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ade7518a-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="LogPosition"/>
+   <Column name="Note" value="The position of Log at the certain point of time. 
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{fd0da82c-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Log"/>
+   <Column name="Note" value="A record of events/entries.
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="PartyRole"/>
+   <Column name="Note" value="A specific role of a specific Party in the specific relationship.  "/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Event"/>
+   <Column name="Note" value="Something that happens, has happened, can happen or is planned to happen."/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Party"/>
+   <Column name="Note" value="A party represents an autonomous entity in which a bank has a business interest. It has a legal definition and identity. A party is a Person, Organization, (a proposed definition for BIAN BOM adapted from BIAN Party Working Group) 
+
+- Entity involved in an activity. (ISO20022)"/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Position"/>
+   <Column name="Note" value="The counted state (e.g., the amount of money, the value, the number) of something 
+- It is the sum of entries
+- It is the derived attribute
+- It is an information object"/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="LogEntryDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{37aae2e8-24d3-e911-8296-06b94e7647ce}"/>
+   <Extension Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogEntryValueDate"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c0a612ff-24d3-e911-8296-06b94e7647ce}"/>
+   <Extension Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogEntryIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{2ed2512d-cc48-ea11-8289-064c9ffef37a}"/>
+   <Extension Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PostedEventIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{69519b7e-cc48-ea11-8289-064c9ffef37a}"/>
+   <Extension Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogEntryStatus"/>
+   <Column name="Note" value="The status of the log entry (e.g. active, in-suspense etc.)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{63b919ca-8ba9-ea11-829f-06478228ed28}"/>
+   <Extension Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PositionType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d2d1f540-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension Object_ID="{fd0da82c-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PositionDefinition"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{e943fb46-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension Object_ID="{fd0da82c-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Position"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{06663650-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension Object_ID="{fd0da82c-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{5cbfe750-3576-e911-823e-065f1d1f71b2}"/>
+   <Extension Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogPeriod"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{4b7a7e87-3576-e911-823e-065f1d1f71b2}"/>
+   <Extension Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogDate"/>
+   <Column name="Note" value="Key dates associated with the log (e.g. start time)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{6a8de739-6aa9-e911-8288-061bf39b9564}"/>
+   <Extension Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="LogIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{a0125864-25d3-e911-8296-06b94e7647ce}"/>
+   <Extension Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyRoleType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{83c28dd9-29e9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyRoleName"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{7ebb122f-2ce9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyRoleValidityPeriod"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{fb571d5e-2ce9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyInvolvementType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c5867926-2de9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3c7452e6-ef7a-e911-823e-06a71c6fe4c8}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventDateTime"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{074ed509-fa7a-e911-823e-06a71c6fe4c8}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{45663413-957c-e911-823e-06546fdb7546}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventSource"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{aba7b717-107e-e911-823e-0621e465bcf2}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventLocation"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{fec4f6fe-6280-e911-823e-066c44d66510}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventAction"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ce55d44d-6380-e911-823e-066c44d66510}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventStatus"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{42d3903c-7e80-e911-823e-066c44d66510}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventValue"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0c1b164c-538c-e911-823e-061d8abd0026}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventValidityPeriod"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{4a850257-538c-e911-823e-061d8abd0026}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EventIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{2b6c9061-cc48-ea11-8289-064c9ffef37a}"/>
+   <Extension Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyName"/>
+   <Column name="Note" value="Name by which a party is known and which is usually used to identify that party. (ISO20022)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d8f7f366-21cf-e911-8296-06bf764cb4bc}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyType"/>
+   <Column name="Note" value="Specifies the type of party in different business contexts. (ISO20022)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{b1f7b3d8-21cf-e911-8296-06bf764cb4bc}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyDateTime"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d6ed5669-40f6-e911-82bd-06a31b9588ce}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PartyIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{449e231b-a846-ea11-8289-06f8a6a00ed0}"/>
+   <Extension Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PositionValue"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{539366d0-8ed1-ea11-82b1-061e3979cf2c}"/>
+   <Extension Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PositionQuantity"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{a3e1203d-dd5f-eb11-82e9-061efd29a677}"/>
+   <Extension Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PositionDate"/>
+   <Column name="Note" value="The date on which the state of something is calculated"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{a6e33b63-dd5f-eb11-82e9-061efd29a677}"/>
+   <Extension Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="PositionAmount"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8b054fc1-e85f-eb11-82e9-061efd29a677}"/>
+   <Extension Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{3e5243a3-ff69-eb11-82f6-0662bdd087b7}"/>
+   <Extension End_Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}" Start_Object_ID="{d6f08186-25d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4503bd81-8257-e911-8237-0645314e65ac}"/>
+   <Extension End_Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}" Start_Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{bde2dc94-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension End_Object_ID="{ade7518a-016a-eb11-82f6-0662bdd087b7}" Start_Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{e0632ea0-25d3-e911-8296-06b94e7647ce}"/>
+   <Extension End_Object_ID="{d6f08186-25d3-e911-8296-06b94e7647ce}" Start_Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="DestIsAggregate" value="2"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="1..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{cc6048ac-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension End_Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}" Start_Object_ID="{fd0da82c-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="DestIsAggregate" value="2"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="1..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{e1e4421c-25d3-e911-8296-06b94e7647ce}"/>
+   <Extension End_Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}" Start_Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{5336e333-25d3-e911-8296-06b94e7647ce}"/>
+   <Extension End_Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}" Start_Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="1..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{4a817f34-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension End_Object_ID="{fd0da82c-016a-eb11-82f6-0662bdd087b7}" Start_Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..1"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{999d5ca0-016a-eb11-82f6-0662bdd087b7}"/>
+   <Extension End_Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}" Start_Object_ID="{ade7518a-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Log Helper Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+   <Extension Package_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="483"/>
+   <Column name="RectRight" value="525"/>
+   <Column name="RectBottom" value="-92"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{63b22f22-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-491"/>
+   <Column name="RectLeft" value="398"/>
+   <Column name="RectRight" value="418"/>
+   <Column name="RectBottom" value="-536"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{d6f08186-25d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-507"/>
+   <Column name="RectLeft" value="640"/>
+   <Column name="RectRight" value="660"/>
+   <Column name="RectBottom" value="-560"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{ade7518a-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-445"/>
+   <Column name="RectLeft" value="1009"/>
+   <Column name="RectRight" value="1038"/>
+   <Column name="RectBottom" value="-494"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{fd0da82c-016a-eb11-82f6-0662bdd087b7}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-53"/>
+   <Column name="RectLeft" value="977"/>
+   <Column name="RectRight" value="1013"/>
+   <Column name="RectBottom" value="-105"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{2d0e6218-3576-e911-823e-065f1d1f71b2}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-753"/>
+   <Column name="RectLeft" value="377"/>
+   <Column name="RectRight" value="397"/>
+   <Column name="RectBottom" value="-797"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-107"/>
+   <Column name="RectLeft" value="51"/>
+   <Column name="RectRight" value="71"/>
+   <Column name="RectBottom" value="-151"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-737"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-782"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-753"/>
+   <Column name="RectLeft" value="1031"/>
+   <Column name="RectRight" value="1066"/>
+   <Column name="RectBottom" value="-801"/>
+   <Extension Diagram_ID="{0919cb89-24d3-e911-8296-06b94e7647ce}" Object_ID="{6cb2c806-87d1-ea11-82b1-061e3979cf2c}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{3e5243a3-ff69-eb11-82f6-0662bdd087b7}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{bde2dc94-016a-eb11-82f6-0662bdd087b7}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{3e5243a3-ff69-eb11-82f6-0662bdd087b7}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4a817f34-016a-eb11-82f6-0662bdd087b7}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{e1e4421c-25d3-e911-8296-06b94e7647ce}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{cc6048ac-016a-eb11-82f6-0662bdd087b7}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5336e333-25d3-e911-8296-06b94e7647ce}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{e0632ea0-25d3-e911-8296-06b94e7647ce}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{4503bd81-8257-e911-8237-0645314e65ac}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{999d5ca0-016a-eb11-82f6-0662bdd087b7}" DiagramID="{0919cb89-24d3-e911-8296-06b94e7647ce}"/>
+  </Row>
+ </Table>
+</Package>

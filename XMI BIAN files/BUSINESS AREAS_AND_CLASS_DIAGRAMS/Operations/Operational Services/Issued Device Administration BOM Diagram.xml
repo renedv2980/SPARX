@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}" name="Issued Device Administration BOM Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Device"/>
+   <Column name="Note" value="An item created to serve a particular need, such as a credit card, a smart phone, an electronic signature, an electronic key, etc."/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{0263db4b-0761-e911-8237-068e13695e26}"/>
+   <Extension Package_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="IssuedDeviceAllocation"/>
+   <Column name="Note" value="The allocation/issuance of issued devices and materials (e.g. cards)."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{74b3e309-bad7-e911-82a8-0667cb2841e8}"/>
+   <Extension Package_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ResourceAllocation"/>
+   <Column name="Note" value="An assignment of a resource to a party or system."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension Package_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ResourceAllocation"/>
+   <Column name="Note" value="An assignment of a resource to a party or system."/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension Package_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Allocation"/>
+   <Column name="Note" value="The act of assignment or the act of allocating. "/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+   <Extension Package_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="DeviceIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d87e94b2-b9a4-e911-8284-062084c0b880}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceType"/>
+   <Column name="Note" value='Reference to the device type of the device
+
+A device has the characteristics of the device type it belongs to possibly specified
+e.g. a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version 
+
+'/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{a372c5da-b9a4-e911-8284-062084c0b880}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceProperty"/>
+   <Column name="Note" value='Property of a device relevant for its use.
+
+A device has the characteristics of the device type it belongs to,possibly specified
+e.g. . a device of the type "cheque book" will have cheques. The device specifies how many and what the number range is.
+e.g. an electronic banking app consists of software modules, the device specifies what version 
+'/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{a70d33c5-bda4-e911-8284-062084c0b880}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceElement"/>
+   <Column name="Note" value="An element of the device that can be used independently and is individually identified
+
+e.g. a cheque in a chequebook"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c99ad9e9-bfa4-e911-8284-062084c0b880}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceStatus"/>
+   <Column name="Note" value="The life cycle stage of a device
+
+e.g. active, defect"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{f108fea3-efa6-e911-8288-06c837085cb8}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceVersion"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{04fa505a-96c5-e911-8296-06227606fcb6}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceDateTime"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{16dabb60-96c5-e911-8296-06227606fcb6}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DeviceDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{317799d8-96c5-e911-8296-06227606fcb6}"/>
+   <Extension Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationAmount"/>
+   <Column name="Note" value="The amount allocated"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9677003a-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDuration"/>
+   <Column name="Note" value="duration for which the allocation is enforced"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{81584064-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDirection"/>
+   <Column name="Note" value="Indication if it is an allocation or recall"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{16c6d6e6-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationStatus"/>
+   <Column name="Note" value="A state expressing if the allocation is pending confirmation, allocated, recalled, etc."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{92b406cf-2781-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ec27f701-2028-eb11-82d4-06b1e967d8ed}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{b2214c25-bcd7-e911-82a8-0667cb2841e8}"/>
+   <Extension End_Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}" Start_Object_ID="{74b3e309-bad7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{df0d7a4b-1c91-e911-823e-06f3e7d1f9c0}"/>
+   <Extension End_Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}" Start_Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{bc0a7101-bbd7-e911-82a8-0667cb2841e8}"/>
+   <Extension End_Object_ID="{0263db4b-0761-e911-8237-068e13695e26}" Start_Object_ID="{74b3e309-bad7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Issued Device Administration BOM Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Package_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-553"/>
+   <Column name="RectLeft" value="661"/>
+   <Column name="RectRight" value="681"/>
+   <Column name="RectBottom" value="-597"/>
+   <Extension Diagram_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}" Object_ID="{0263db4b-0761-e911-8237-068e13695e26}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-553"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-613"/>
+   <Extension Diagram_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}" Object_ID="{74b3e309-bad7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-276"/>
+   <Column name="RectLeft" value="40"/>
+   <Column name="RectRight" value="60"/>
+   <Column name="RectBottom" value="-320"/>
+   <Extension Diagram_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}" Object_ID="{3b624c41-1c91-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="40"/>
+   <Column name="RectRight" value="60"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}" Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{b2214c25-bcd7-e911-82a8-0667cb2841e8}" DiagramID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{df0d7a4b-1c91-e911-823e-06f3e7d1f9c0}" DiagramID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{b2214c25-bcd7-e911-82a8-0667cb2841e8}" DiagramID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{bc0a7101-bbd7-e911-82a8-0667cb2841e8}" DiagramID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{df0d7a4b-1c91-e911-823e-06f3e7d1f9c0}" DiagramID="{fba2ba54-b9d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+</Package>

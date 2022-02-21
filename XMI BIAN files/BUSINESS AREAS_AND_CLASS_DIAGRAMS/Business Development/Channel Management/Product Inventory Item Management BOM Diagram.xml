@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" name="Product Inventory Item Management BOM Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ProductInventory"/>
+   <Column name="Note" value="An inventory of a particular product that is available for sale"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ProductInventoryItem"/>
+   <Column name="Note" value="An item in a product inventory"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{26e1320b-a760-eb11-82e9-06f21a0655e3}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ProductInventoryAllocation"/>
+   <Column name="Note" value="Allocation of a product inventory"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Allocation"/>
+   <Column name="Note" value="The act of assignment or the act of allocating. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="BankingProduct"/>
+   <Column name="Note" value="A package of services and goods, accompanied by term and condition which is offered as a whole to (internal or external) customers."/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ProductInventoryAssignment"/>
+   <Column name="Note" value="The distribution of product inventory to a location"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="ProductInventoryAssignmentRequest"/>
+   <Column name="Note" value="A request to distribute the product inventory"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{07f399d7-40b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="AllocationServiceSchedule"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{7aba1bbb-3fb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationAmount"/>
+   <Column name="Note" value="The amount allocated"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9677003a-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDuration"/>
+   <Column name="Note" value="duration for which the allocation is enforced"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{81584064-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDirection"/>
+   <Column name="Note" value="Indication if it is an allocation or recall"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{16c6d6e6-2581-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationStatus"/>
+   <Column name="Note" value="A state expressing if the allocation is pending confirmation, allocated, recalled, etc."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{92b406cf-2781-e911-823e-06e233b9c772}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AllocationDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{ec27f701-2028-eb11-82d4-06b1e967d8ed}"/>
+   <Extension Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductIdentification"/>
+   <Column name="Note" value="The identifier of product e.g. ISIN Code."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d9550bed-826a-e911-8237-061b75d0d318}"/>
+   <Extension Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductType"/>
+   <Column name="Note" value="Specifies the category/type/class of product like financial product. Product can be categorized according to different perspectives.  "/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8a5e5f87-2f7d-e911-823e-069ad1a2e648}"/>
+   <Extension Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductLifecycleStatus"/>
+   <Column name="Note" value="Refers to the lifecycle of a product (e.g., initiated, announced, active, obsolete, withdrawn)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c5f72c17-307d-e911-823e-069ad1a2e648}"/>
+   <Extension Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductPriority"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{bf0ea918-b986-e911-823e-062687e6a904}"/>
+   <Extension Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductDescription"/>
+   <Column name="Note" value="A detailed explanation or commentary of product."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{34a6446c-2844-ea11-8289-068ff87429a4}"/>
+   <Extension Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductVersion"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{da801270-cc4c-ea11-8289-062dfdfaca58}"/>
+   <Extension Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductInventoryAssignmentDetail"/>
+   <Column name="Note" value="Details of the distribution of product inventory to a location"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8835bd33-43b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductInventoryAssignmentCost"/>
+   <Column name="Note" value="Details of inventory and delivery related costs"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{5c646d49-43b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductInventoryAssignmentRequest Type"/>
+   <Column name="Note" value="The type of assignment request (e.g. to schedule, ad-hoc inventory request)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8a07b65b-41b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{07f399d7-40b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="ProductInventoryAssignmentRequest Date"/>
+   <Column name="Note" value="Key dates associated with the assignment request (e.g. order date, confirmation date, delivery date)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{c7c37e84-41b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension Object_ID="{07f399d7-40b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{013a06b6-3eb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{1716f2c4-b4a4-e911-8284-06aa98c8c004}" Start_Object_ID="{ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{32d0eb6f-3fb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}" Start_Object_ID="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{32d0eb6f-3fb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}" Start_Object_ID="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{2a41586f-e0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="1..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{99278311-a760-eb11-82e9-06f21a0655e3}"/>
+   <Extension End_Object_ID="{26e1320b-a760-eb11-82e9-06f21a0655e3}" Start_Object_ID="{ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{e01a0d98-42b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8}" Start_Object_ID="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{8cc603dc-3fb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{26e1320b-a760-eb11-82e9-06f21a0655e3}" Start_Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{34c9f889-3fb5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}" Start_Object_ID="{ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{a2ae7238-41b5-ea11-829f-06ddb95e6bc8}"/>
+   <Extension End_Object_ID="{b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8}" Start_Object_ID="{07f399d7-40b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Product Inventory Item Management BOM Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+   <Extension Package_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-384"/>
+   <Column name="RectLeft" value="436"/>
+   <Column name="RectRight" value="456"/>
+   <Column name="RectBottom" value="-428"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{ce44e0a8-3eb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-368"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-413"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{26e1320b-a760-eb11-82e9-06f21a0655e3}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-384"/>
+   <Column name="RectLeft" value="945"/>
+   <Column name="RectRight" value="965"/>
+   <Column name="RectBottom" value="-450"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{1b4ae369-3fb5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="924"/>
+   <Column name="RectRight" value="944"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{1856b69e-cb80-e911-823e-065e8061d7e6}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-384"/>
+   <Column name="RectLeft" value="1461"/>
+   <Column name="RectRight" value="1483"/>
+   <Column name="RectBottom" value="-476"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{b1d6fa8e-42b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-738"/>
+   <Column name="RectLeft" value="1345"/>
+   <Column name="RectRight" value="1370"/>
+   <Column name="RectBottom" value="-859"/>
+   <Extension Diagram_ID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}" Object_ID="{07f399d7-40b5-ea11-829f-06ddb95e6bc8}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{013a06b6-3eb5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{32d0eb6f-3fb5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{32d0eb6f-3fb5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{2a41586f-e0a4-ea11-829f-0660fb1fa966}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{32d0eb6f-3fb5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{99278311-a760-eb11-82e9-06f21a0655e3}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{e01a0d98-42b5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{34c9f889-3fb5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{a2ae7238-41b5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{8cc603dc-3fb5-ea11-829f-06ddb95e6bc8}" DiagramID="{71d4fd0e-968b-ea11-8295-06e7a30f2f68}"/>
+  </Row>
+ </Table>
+</Package>

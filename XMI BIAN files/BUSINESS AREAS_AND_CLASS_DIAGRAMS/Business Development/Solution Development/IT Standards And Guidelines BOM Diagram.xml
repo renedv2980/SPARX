@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{3f808a54-d101-eb11-82be-068d3e7acd11}" name="IT Standards And Guidelines BOM Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="DesignSpecificationAspect"/>
+   <Column name="Note" value="An aspect of the specification for a designed object "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{312ae26c-baae-e911-828c-06d72c197ec4}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="RuleSet"/>
+   <Column name="Note" value="A set of rules (e.g., regulation, policy, law, guideline, principle, standard) to guide, direct or operate a subject matter."/>
+   <Column name="Backcolor" value="15263978"/>
+   <Column name="ea_guid" value="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="DesignSpecification"/>
+   <Column name="Note" value="A specification providing information about a designed object (e.g. product, service, process, procedure, model) covering all aspects required for its use.
+
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="TechnologyStandardDesignSpecification"/>
+   <Column name="Note" value="A DesignSpecification about a TechnologyStandard"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{2a212d03-2354-eb11-82e3-06d9eff808b9}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Standard"/>
+   <Column name="Note" value="A rule considered by an authority or by general consent as a basis of comparison"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{e42f60da-2b54-eb11-82e3-06d9eff808b9}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="TechnologyStandard"/>
+   <Column name="Note" value="A standard that specifies technical specifications for a material, device or method.
+
+A document that specifies design, predicted performance and operation and maintenance specifications for a material, device or method.
+https://www.lawinsider.com/dictionary/technical-standard
+
+An established norm or requirement for a repeatable technical task. It is usually a formal document that establishes uniform engineering or technical criteria, methods, processes, and practices. (Wikipedia)"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ad0b16e4-2254-eb11-82e3-06d9eff808b9}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="DesignSpecificationAspectType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{d8afaee1-25e9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{312ae26c-baae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetDefinition"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{987fcf6e-c4cf-e911-8296-06957f3f468a}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetInterpretation"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{212d1c6a-2fd6-e911-8296-06e1705194c6}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1cde0ffd-2fd6-e911-8296-06e1705194c6}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetName"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{547527cd-b97d-eb11-8309-06f448ba7707}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="RuleSetIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9e2d918a-bf7d-eb11-8309-06f448ba7707}"/>
+   <Extension Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DesignSpecificationStatus"/>
+   <Column name="Note" value="The operational and development status of a design specification (e.g. under development, available, in-use under review) "/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{830f51f5-2c44-ea11-8289-068ff87429a4}"/>
+   <Extension Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DesignSpecificationVersion"/>
+   <Column name="Note" value="Release version of the available design specification plus version history as appropriate"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{838b2d70-2d44-ea11-8289-068ff87429a4}"/>
+   <Extension Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DesignSpecificationType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{eaefe761-25e9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DesignSpecificationDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{fd26d3b6-27e9-ea11-82b8-0621c7360a13}"/>
+   <Extension Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="StandardType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{28ec8b5c-5065-eb11-82ee-06b6c49a40d9}"/>
+   <Extension Object_ID="{e42f60da-2b54-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{ff5af90b-2354-eb11-82e3-06d9eff808b9}"/>
+   <Extension End_Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}" Start_Object_ID="{2a212d03-2354-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{ac4ee15f-2c54-eb11-82e3-06d9eff808b9}"/>
+   <Extension End_Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}" Start_Object_ID="{e42f60da-2b54-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{ac4ee15f-2c54-eb11-82e3-06d9eff808b9}"/>
+   <Extension End_Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}" Start_Object_ID="{e42f60da-2b54-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{46cfaeb2-2c54-eb11-82e3-06d9eff808b9}"/>
+   <Extension End_Object_ID="{e42f60da-2b54-eb11-82e3-06d9eff808b9}" Start_Object_ID="{ad0b16e4-2254-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Aggregation"/>
+   <Column name="DestIsAggregate" value="2"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{3fbb0577-baae-e911-828c-06d72c197ec4}"/>
+   <Extension End_Object_ID="{312ae26c-baae-e911-828c-06d72c197ec4}" Start_Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..*"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{7a61ca90-2454-eb11-82e3-06d9eff808b9}"/>
+   <Extension End_Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}" Start_Object_ID="{ad0b16e4-2254-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Association"/>
+   <Column name="Direction" value="Unspecified"/>
+   <Column name="IsDerived" value="FALSE"/>
+   <Column name="SourceIsNavigable" value="TRUE"/>
+   <Column name="IsOrdered" value="FALSE"/>
+   <Column name="IsUnique" value="TRUE"/>
+   <Column name="SourceCard" value="0..1"/>
+   <Column name="Visibility" value="Public"/>
+   <Column name="DestIsNavigable" value="TRUE"/>
+   <Column name="DestCard" value="0..*"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{e17da403-2454-eb11-82e3-06d9eff808b9}"/>
+   <Extension End_Object_ID="{2a212d03-2354-eb11-82e3-06d9eff808b9}" Start_Object_ID="{ad0b16e4-2254-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="IT Standards And Guidelines BOM Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+   <Extension Package_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-368"/>
+   <Column name="RectLeft" value="1040"/>
+   <Column name="RectRight" value="1060"/>
+   <Column name="RectBottom" value="-418"/>
+   <Extension Diagram_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}" Object_ID="{312ae26c-baae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="114"/>
+   <Column name="RectRight" value="134"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}" Object_ID="{a89ab5c4-598b-e911-823e-0680522666ec}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-368"/>
+   <Column name="RectLeft" value="503"/>
+   <Column name="RectRight" value="523"/>
+   <Column name="RectBottom" value="-413"/>
+   <Extension Diagram_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}" Object_ID="{a7f7f0e1-b7ae-e911-828c-06d72c197ec4}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-661"/>
+   <Column name="RectLeft" value="461"/>
+   <Column name="RectRight" value="481"/>
+   <Column name="RectBottom" value="-733"/>
+   <Extension Diagram_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}" Object_ID="{2a212d03-2354-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-353"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="50"/>
+   <Column name="RectBottom" value="-397"/>
+   <Extension Diagram_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}" Object_ID="{e42f60da-2b54-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-661"/>
+   <Column name="RectLeft" value="72"/>
+   <Column name="RectRight" value="92"/>
+   <Column name="RectBottom" value="-705"/>
+   <Extension Diagram_ID="{3f808a54-d101-eb11-82be-068d3e7acd11}" Object_ID="{ad0b16e4-2254-eb11-82e3-06d9eff808b9}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ff5af90b-2354-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ac4ee15f-2c54-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ac4ee15f-2c54-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{46cfaeb2-2c54-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{e17da403-2454-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{7a61ca90-2454-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ac4ee15f-2c54-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{ff5af90b-2354-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{46cfaeb2-2c54-eb11-82e3-06d9eff808b9}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{3fbb0577-baae-e911-828c-06d72c197ec4}" DiagramID="{3f808a54-d101-eb11-82be-068d3e7acd11}"/>
+  </Row>
+ </Table>
+</Package>

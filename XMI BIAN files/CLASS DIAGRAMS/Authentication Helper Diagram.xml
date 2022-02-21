@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" name="Authentication Helper Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="ea_guid" value="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Assessment"/>
+   <Column name="Note" value="the rating/certification derived as result of an applied test assessment of an entity using specific testing criteria"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+   <Extension Package_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AuthenticationMethodTypeValues"/>
+   <Column name="Note" value="Method used to authenticate a cardholder. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Package_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="AuthenticationMethodTypeValues"/>
+   <Column name="Note" value="Method used to authenticate a cardholder. "/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Package_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="Authentication"/>
+   <Column name="Note" value="An evaluation whether a party or system is what it claims to be.
+
+A security mechanism for verifying: 1) the identity of an individual or other entity (including verification by means of a computer or computer application); and 2) the level of authority of that person or entity (i.e. the ability of that person or entity to perform specific tasks or activities). (ECB)"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+   <Extension Package_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="AssessmentType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3c005ebe-a272-e911-823e-067c7fd4c978}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentMethod"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{42005ebe-a272-e911-823e-067c7fd4c978}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentSchedule"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{7bdd12c5-0577-e911-823e-0663ff6583c4}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentDescription"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{2577ab32-0777-e911-823e-0663ff6583c4}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentModel"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{110ee713-0877-e911-823e-0663ff6583c4}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentDateTime"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8626f03d-377d-e911-823e-069ad1a2e648}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentResult"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{1f36dd6d-377d-e911-823e-069ad1a2e648}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentSupportingDocument"/>
+   <Column name="Note" value="Document that provides background or corroborating information regarding an assessment(s)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{06b88e61-24a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentRepresentingDocument"/>
+   <Column name="Note" value="Document that represents the result of an assessment(s)."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{da6a7970-24a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentRequiredAdjustment"/>
+   <Column name="Note" value="Change that the assessment reveals is needed."/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8c5f059a-24a2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentRequirement"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{0ef47758-2ea2-e911-8280-068b5ca1cd1a}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AssessmentExpiryDate"/>
+   <Column name="Note" value="Date when the assessment expires. (ISO20022)"/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{2425862b-00bd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="OnLinePIN"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{fb3802ae-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="OfflinePIN"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{fd3802ae-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="SignatureCapture"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{400147ba-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Password"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{255bc9c4-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Biometry"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{6dc82bce-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="CSCVerification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{48f750de-0dbd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="CryptogramVerification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{1d567c02-0ebd-e911-8291-066cb8d4b6e8}"/>
+   <Extension Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AuthenticationLevel"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{704b8b32-59a9-e911-8288-061bf39b9564}"/>
+   <Extension Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AuthenticationEntity"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{9c614475-b5d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="AuthenticationMethodType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{abc0c512-b6d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{74cb4899-f1b1-e911-828c-064878c57b7e}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{74cb4899-f1b1-e911-828c-064878c57b7e}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{74cb4899-f1b1-e911-828c-064878c57b7e}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{74cb4899-f1b1-e911-828c-064878c57b7e}"/>
+   <Extension End_Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}" Start_Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Authentication Helper Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+   <Extension Package_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="456"/>
+   <Column name="RectRight" value="476"/>
+   <Column name="RectBottom" value="-74"/>
+   <Extension Diagram_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-353"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="90"/>
+   <Column name="RectBottom" value="-418"/>
+   <Extension Diagram_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-353"/>
+   <Column name="RectLeft" value="398"/>
+   <Column name="RectRight" value="434"/>
+   <Column name="RectBottom" value="-422"/>
+   <Extension Diagram_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{74cb4899-f1b1-e911-828c-064878c57b7e}" DiagramID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{74cb4899-f1b1-e911-828c-064878c57b7e}" DiagramID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{74cb4899-f1b1-e911-828c-064878c57b7e}" DiagramID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{74cb4899-f1b1-e911-828c-064878c57b7e}" DiagramID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{74cb4899-f1b1-e911-828c-064878c57b7e}" DiagramID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}"/>
+  </Row>
+ </Table>
+</Package>

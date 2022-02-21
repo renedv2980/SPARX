@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package guid="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" name="Financial Instrument Classification Diagram">
+ <Table name="t_package">
+  <Row>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+   <Extension/>
+  </Row>
+ </Table>
+ <Table name="t_object">
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialInstrument"/>
+   <Column name="Note" value="A contract that gives rise to a financial asset of one entity and a financial liability or equity instrument of another entity. (IFRS)
+https://www.iasplus.com/en/standards/ias/ias32#:~:text=Key%20definitions%20%5BIAS%2032.11%5D,equity%20instrument%20of%20another%20entity
+
+Financial instruments are financial contracts of different nature made between institutional units. These comprise the full range of financial claims and liabilities between institutional units, including contingent liabilities like guarantees, commitments, etc. (ISO 10962)
+"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialAsset"/>
+   <Column name="Note" value="A financial asset is an asset whose value comes from a contractual claim. These assets are frequently traded. 
+https://www.accountingtools.com/articles/2017/5/9/financial-asset"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="DebtInstrumentTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{08cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="DebtInstrumentTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{08cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="DebtInstrument"/>
+   <Column name="Note" value="A Debt Instrument is a means someone can utilize to borrow  and return something according to specified terms and conditions.
+
+Comment: This something can be money, property, securities, rights, etc.
+The terms and conditions includes details such as collateral, interest rate, schedule for interest payments, schedule for capital repayments, timeframe to maturity etc.
+
+What is the difference between debt instruments and equity instruments?
+
+Debt instruments are assets that require a fixed payment to the holder, usually with interest. Examples of debt instruments include bonds (government or corporate) and mortgages.
+Equity instruments allow a company to raise money without incurring debt. This can include selling stock. When equity instruments are used, the holders give money in exchange for a portion of the company.
+Debt holders usually charge businesses interest, while equity holders rely on stock appreciation or dividends for a return."/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="EquityInstrument"/>
+   <Column name="Note" value="Any contract that evidences a residual interest in the assets of an entity after deducting all of its liabilities.
+https://www.iasplus.com/en/standards/ias/ias32"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{e057663d-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Class"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialLiability"/>
+   <Column name="Note" value="Financial liability: any liability that is:
+
+- A contractual obligation: to deliver cash or another financial asset to another entity; or to exchange financial assets or financial liabilities with another entity under conditions that are potentially unfavourable to the entity; or
+- A contract that will or may be settled in the entity's own equity instruments and is 
+--a non-derivative for which the entity is or may be obliged to deliver a variable number of the entity's own equity instruments or
+--a derivative that will or may be settled other than by the exchange of a fixed amount of cash or another financial asset for a fixed number of the entity's own equity instruments. For this purpose the entity's own equity instruments do not include: instruments that are themselves contracts for the future receipt or delivery of the entity's own equity instruments; puttable instruments classified as equity or certain liabilities arising on liquidation classified by IAS 32 as equity instruments
+
+https://www.iasplus.com/en/standards/ias/ias32
+
+https://www.accountingtools.com/articles/2017/5/10/financial-liability"/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{15b14aa1-b6a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialAssetTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ace9b1dd-baa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Object_Type" value="Enumeration"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="Name" value="FinancialAssetTypeValues"/>
+   <Column name="Note" value=""/>
+   <Column name="Backcolor" value="16777215"/>
+   <Column name="ea_guid" value="{ace9b1dd-baa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+ </Table>
+ <Table name="t_attribute">
+  <Row>
+   <Column name="Name" value="FinancialInstrumentType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{af662165-8259-eb11-82e3-069263446f67}"/>
+   <Extension Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialInstrumentIdentification"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{8b0201f0-8359-eb11-82e3-069263446f67}"/>
+   <Extension Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialInstrumentName"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{3b0bb741-e067-eb11-82f6-06f5e4900cbd}"/>
+   <Extension Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="FinancialAssetType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{f7e658cf-baa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Loan"/>
+   <Column name="Note" value="Loan is a debt instrument where the lender is a financial institution and where the debt is not traded on the market."/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{09cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{08cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Bond"/>
+   <Column name="Note" value="Bond is a debt that is traded on the bond market, the lender is not necessarily a financial institution, but one or more investors (a kind of crowd funding)"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{a26992a8-c0a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{08cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Deposit"/>
+   <Column name="Note" value="Deposits are standard, non-negotiable contracts open to the public at large that
+allow the placements of variable amounts of funds and the later withdrawal. 
+https://www.elibrary.imf.org/view/IMF069/22606-9781513579191/22606-9781513579191/ch04.xml"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{5c31a686-c1a4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{08cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DebtInstrumentType"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="Multivalued=false"/>
+   <Column name="ea_guid" value="{bac438f0-bfa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="Cash"/>
+   <Column name="Note" value=""/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{487ee7e3-baa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{ace9b1dd-baa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="EquityInstrument"/>
+   <Column name="Note" value="Any contract that evidences a residual interest in the assets of an entity after deducting all of its liabilities.
+https://www.iasplus.com/en/standards/ias/ias32"/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{4f7ee7e3-baa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{ace9b1dd-baa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Name" value="DebtInstrument"/>
+   <Column name="Note" value="A Debt Instrument is a means someone can utilize to borrow  and return something according to specified terms and conditions.
+
+Comment: This something can be money, property, securities, rights, etc.
+The terms and conditions includes details such as collateral, interest rate, schedule for interest payments, schedule for capital repayments, timeframe to maturity etc."/>
+   <Column name="Type" value="String"/>
+   <Column name="ea_guid" value="{6068c4ab-bca4-ea11-829f-0660fb1fa966}"/>
+   <Extension Object_ID="{ace9b1dd-baa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagram">
+  <Row>
+   <Column name="Diagram_Type" value="Logical"/>
+   <Column name="Name" value="Financial Instrument Classification Diagram"/>
+   <Column name="AttPub" value="TRUE"/>
+   <Column name="Package_ID" value="0"/>
+   <Column name="ea_guid" value="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+   <Extension Package_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramobjects">
+  <Row>
+   <Column name="RectTop" value="-30"/>
+   <Column name="RectLeft" value="482"/>
+   <Column name="RectRight" value="504"/>
+   <Column name="RectBottom" value="-113"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-338"/>
+   <Column name="RectLeft" value="324"/>
+   <Column name="RectRight" value="344"/>
+   <Column name="RectBottom" value="-391"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-600"/>
+   <Column name="RectLeft" value="914"/>
+   <Column name="RectRight" value="949"/>
+   <Column name="RectBottom" value="-650"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{08cfa49f-c0a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-630"/>
+   <Column name="RectLeft" value="598"/>
+   <Column name="RectRight" value="618"/>
+   <Column name="RectBottom" value="-685"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-630"/>
+   <Column name="RectLeft" value="345"/>
+   <Column name="RectRight" value="365"/>
+   <Column name="RectBottom" value="-675"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{e057663d-bba4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-338"/>
+   <Column name="RectLeft" value="630"/>
+   <Column name="RectRight" value="650"/>
+   <Column name="RectBottom" value="-383"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{15b14aa1-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="RectTop" value="-338"/>
+   <Column name="RectLeft" value="30"/>
+   <Column name="RectRight" value="63"/>
+   <Column name="RectBottom" value="-388"/>
+   <Extension Diagram_ID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}" Object_ID="{ace9b1dd-baa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+ </Table>
+ <Table name="t_connector">
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}"/>
+   <Extension End_Object_ID="{30a4d16d-6080-e911-823e-061de61e9206}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{5e044e36-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}"/>
+   <Extension End_Object_ID="{30a4d16d-6080-e911-823e-061de61e9206}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{5e044e36-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{f4988bfc-bea4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{6b0cd1a2-285f-eb11-82e9-06394efee01d}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{f4988bfc-bea4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{6b0cd1a2-285f-eb11-82e9-06394efee01d}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{771cbe9b-bea1-ea11-829a-065300d6f09e}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{26cec443-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{6e02f897-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{e057663d-bba4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Connector_Type" value="Generalization"/>
+   <Column name="Diagram_ID" value="0"/>
+   <Column name="ea_guid" value="{62044e36-bba4-ea11-829f-0660fb1fa966}"/>
+   <Extension End_Object_ID="{2b91327b-b6a4-ea11-829f-0660fb1fa966}" Start_Object_ID="{15b14aa1-b6a4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+ </Table>
+ <Table name="t_diagramlinks">
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5e044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{761a1fc0-7d56-eb11-82e3-06d64c037e3d}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5e044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{f4988bfc-bea4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{6b0cd1a2-285f-eb11-82e9-06394efee01d}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{f4988bfc-bea4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{6b0cd1a2-285f-eb11-82e9-06394efee01d}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{26cec443-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{62044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{f4988bfc-bea4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{62044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{5e044e36-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+  <Row>
+   <Column name="Style" value="Mode=2"/>
+   <Extension ConnectorID="{26cec443-bba4-ea11-829f-0660fb1fa966}" DiagramID="{c4398b1f-afa4-ea11-829f-0660fb1fa966}"/>
+  </Row>
+ </Table>
+</Package>
