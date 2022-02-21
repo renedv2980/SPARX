@@ -11,7 +11,7 @@
    <Column name="Object_Type" value="Class"/>
    <Column name="Diagram_ID" value="0"/>
    <Column name="Name" value="Project"/>
-   <Column name="Note" value="details of a project with defined deliverables, finite duration, budget and allocated resources"/>
+   <Column name="Note" value="details of a project with defined deliverables, finite duration, budget and allocated resources............................"/>
    <Column name="Backcolor" value="16777215"/>
    <Column name="ea_guid" value="{fb61a357-9f51-ea11-8289-06269fe19394}"/>
    <Extension Package_ID="{5bb28ff3-084c-ea11-8289-06e1bff5c596}"/>
@@ -106,13 +106,6 @@ Deliverables as Behaviour Qualifier Type: A collection of one or more deliverabl
    <Column name="RectRight" value="79"/>
    <Column name="RectBottom" value="-84"/>
    <Extension Diagram_ID="{5bb28ff3-084c-ea11-8289-06e1bff5c596}" Object_ID="{fb61a357-9f51-ea11-8289-06269fe19394}"/>
-  </Row>
-  <Row>
-   <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="462"/>
-   <Column name="RectRight" value="482"/>
-   <Column name="RectBottom" value="-75"/>
-   <Extension Diagram_ID="{5bb28ff3-084c-ea11-8289-06e1bff5c596}" Object_ID="{5be8a55c-a051-ea11-8289-06269fe19394}"/>
   </Row>
  </Table>
  <Table name="t_diagramlinks">
