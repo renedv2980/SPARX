@@ -11,7 +11,7 @@
    <Column name="Object_Type" value="Class"/>
    <Column name="Diagram_ID" value="0"/>
    <Column name="Name" value="AccountEntry"/>
-   <Column name="Note" value="Entry means Posting to an account that results in an increase or decrease to a balance.
+   <Column name="Note" value="Entry means Posting to an account that results in an increase or decrease to a balance. (ISO20022)
 
 An entry posted/booked in the account.  
 "/>
