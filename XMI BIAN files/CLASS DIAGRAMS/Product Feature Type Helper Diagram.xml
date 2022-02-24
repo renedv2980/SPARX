@@ -445,30 +445,30 @@ The accumulation of units that can be exchanged for benefits of other discounts.
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="91"/>
-   <Column name="RectRight" value="131"/>
-   <Column name="RectBottom" value="-93"/>
+   <Column name="RectLeft" value="74"/>
+   <Column name="RectRight" value="289"/>
+   <Column name="RectBottom" value="-167"/>
    <Extension Diagram_ID="{29d2802e-1394-e911-823e-069871e4ec9c}" Object_ID="{9e924c3c-0d94-e911-823e-069871e4ec9c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-362"/>
+   <Column name="RectTop" value="-193"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="90"/>
-   <Column name="RectBottom" value="-451"/>
+   <Column name="RectRight" value="332"/>
+   <Column name="RectBottom" value="-398"/>
    <Extension Diagram_ID="{29d2802e-1394-e911-823e-069871e4ec9c}" Object_ID="{343a4e99-0e94-e911-823e-069871e4ec9c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-1101"/>
-   <Column name="RectLeft" value="464"/>
-   <Column name="RectRight" value="498"/>
-   <Column name="RectBottom" value="-1174"/>
+   <Column name="RectTop" value="-557"/>
+   <Column name="RectLeft" value="342"/>
+   <Column name="RectRight" value="590"/>
+   <Column name="RectBottom" value="-671"/>
    <Extension Diagram_ID="{29d2802e-1394-e911-823e-069871e4ec9c}" Object_ID="{4a23455a-1194-e911-823e-069871e4ec9c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-876"/>
-   <Column name="RectLeft" value="1082"/>
-   <Column name="RectRight" value="1122"/>
-   <Column name="RectBottom" value="-953"/>
+   <Column name="RectTop" value="-446"/>
+   <Column name="RectLeft" value="785"/>
+   <Column name="RectRight" value="1047"/>
+   <Column name="RectBottom" value="-583"/>
    <Extension Diagram_ID="{29d2802e-1394-e911-823e-069871e4ec9c}" Object_ID="{5056028a-1294-e911-823e-069871e4ec9c}"/>
   </Row>
  </Table>

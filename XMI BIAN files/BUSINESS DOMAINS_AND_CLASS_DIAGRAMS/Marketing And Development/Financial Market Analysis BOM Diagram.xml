@@ -306,45 +306,45 @@ This has several dimensions that are not elaborated furthere.g. push, pull, requ
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-399"/>
-   <Column name="RectLeft" value="83"/>
-   <Column name="RectRight" value="103"/>
-   <Column name="RectBottom" value="-459"/>
+   <Column name="RectTop" value="-212"/>
+   <Column name="RectLeft" value="68"/>
+   <Column name="RectRight" value="272"/>
+   <Column name="RectBottom" value="-280"/>
    <Extension Diagram_ID="{42cdf64f-71ff-ea11-82be-06dd926e0b07}" Object_ID="{5c47482d-d8ab-ea11-829f-067a4ad4fc9c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-676"/>
+   <Column name="RectTop" value="-348"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-723"/>
+   <Column name="RectRight" value="191"/>
+   <Column name="RectBottom" value="-416"/>
    <Extension Diagram_ID="{42cdf64f-71ff-ea11-82be-06dd926e0b07}" Object_ID="{62e630b8-ddab-ea11-829f-067a4ad4fc9c}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="1083"/>
-   <Column name="RectRight" value="1103"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="786"/>
+   <Column name="RectRight" value="937"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{42cdf64f-71ff-ea11-82be-06dd926e0b07}" Object_ID="{231bdf18-2e76-e911-823e-065f1d1f71b2}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="588"/>
-   <Column name="RectRight" value="608"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="431"/>
+   <Column name="RectRight" value="582"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{42cdf64f-71ff-ea11-82be-06dd926e0b07}" Object_ID="{6aa1554b-7675-e911-823e-064d1e9fbc72}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-922"/>
-   <Column name="RectLeft" value="125"/>
-   <Column name="RectRight" value="145"/>
-   <Column name="RectBottom" value="-984"/>
+   <Column name="RectTop" value="-469"/>
+   <Column name="RectLeft" value="98"/>
+   <Column name="RectRight" value="310"/>
+   <Column name="RectBottom" value="-537"/>
    <Extension Diagram_ID="{42cdf64f-71ff-ea11-82be-06dd926e0b07}" Object_ID="{f9318a3a-d6af-ea11-829f-0681374b35cc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-399"/>
-   <Column name="RectLeft" value="588"/>
-   <Column name="RectRight" value="608"/>
-   <Column name="RectBottom" value="-444"/>
+   <Column name="RectTop" value="-212"/>
+   <Column name="RectLeft" value="431"/>
+   <Column name="RectRight" value="584"/>
+   <Column name="RectBottom" value="-280"/>
    <Extension Diagram_ID="{42cdf64f-71ff-ea11-82be-06dd926e0b07}" Object_ID="{11043d39-af51-eb11-82e3-06132fe31c95}"/>
   </Row>
  </Table>

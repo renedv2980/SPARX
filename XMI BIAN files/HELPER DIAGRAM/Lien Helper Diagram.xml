@@ -449,38 +449,38 @@ e.g. the savings account the lien is placed upon"/>
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-337"/>
-   <Column name="RectLeft" value="1146"/>
-   <Column name="RectRight" value="1168"/>
-   <Column name="RectBottom" value="-383"/>
+   <Column name="RectTop" value="-181"/>
+   <Column name="RectLeft" value="832"/>
+   <Column name="RectRight" value="986"/>
+   <Column name="RectBottom" value="-257"/>
    <Extension Diagram_ID="{82d4660d-b6da-e911-82a8-06a46ad19552}" Object_ID="{0250b837-e797-e911-827a-06d89370a58e}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-322"/>
-   <Column name="RectLeft" value="546"/>
-   <Column name="RectRight" value="622"/>
-   <Column name="RectBottom" value="-387"/>
+   <Column name="RectTop" value="-174"/>
+   <Column name="RectLeft" value="401"/>
+   <Column name="RectRight" value="621"/>
+   <Column name="RectBottom" value="-431"/>
    <Extension Diagram_ID="{82d4660d-b6da-e911-82a8-06a46ad19552}" Object_ID="{efd74dde-5896-e911-823e-062d75b50cca}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="1149"/>
-   <Column name="RectRight" value="1169"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="833"/>
+   <Column name="RectRight" value="984"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{82d4660d-b6da-e911-82a8-06a46ad19552}" Object_ID="{823053bb-a486-e911-823e-062687e6a904}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-514"/>
+   <Column name="RectTop" value="-268"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-584"/>
+   <Column name="RectRight" value="269"/>
+   <Column name="RectBottom" value="-336"/>
    <Extension Diagram_ID="{82d4660d-b6da-e911-82a8-06a46ad19552}" Object_ID="{3a451382-f6a2-e911-8280-06df5c9909ce}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="595"/>
-   <Column name="RectRight" value="615"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="435"/>
+   <Column name="RectRight" value="587"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{82d4660d-b6da-e911-82a8-06a46ad19552}" Object_ID="{dd3cc0aa-0a68-e911-8237-06dd5e24f7bc}"/>
   </Row>
  </Table>

@@ -158,30 +158,30 @@ A registry of items recording key reference information and properties relating 
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="524"/>
-   <Column name="RectRight" value="547"/>
-   <Column name="RectBottom" value="-94"/>
+   <Column name="RectLeft" value="386"/>
+   <Column name="RectRight" value="606"/>
+   <Column name="RectBottom" value="-106"/>
    <Extension Diagram_ID="{a5105042-4dad-e911-828c-06a421ebc0a4}" Object_ID="{0120d195-d877-e911-823e-067f69a9229a}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-384"/>
-   <Column name="RectLeft" value="248"/>
-   <Column name="RectRight" value="268"/>
-   <Column name="RectBottom" value="-442"/>
+   <Column name="RectTop" value="-204"/>
+   <Column name="RectLeft" value="187"/>
+   <Column name="RectRight" value="386"/>
+   <Column name="RectBottom" value="-272"/>
    <Extension Diagram_ID="{a5105042-4dad-e911-828c-06a421ebc0a4}" Object_ID="{5267c49f-4dad-e911-828c-06a421ebc0a4}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="59"/>
-   <Column name="RectBottom" value="-92"/>
+   <Column name="RectRight" value="242"/>
+   <Column name="RectBottom" value="-129"/>
    <Extension Diagram_ID="{a5105042-4dad-e911-828c-06a421ebc0a4}" Object_ID="{f09a608f-d877-e911-823e-067f69a9229a}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="1040"/>
-   <Column name="RectRight" value="1060"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="756"/>
+   <Column name="RectRight" value="907"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{a5105042-4dad-e911-828c-06a421ebc0a4}" Object_ID="{287985f8-f2ad-e911-828c-06b8556a313a}"/>
   </Row>
  </Table>

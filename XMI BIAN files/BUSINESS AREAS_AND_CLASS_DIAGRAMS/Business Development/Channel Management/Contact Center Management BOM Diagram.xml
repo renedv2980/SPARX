@@ -198,30 +198,30 @@ The management and oversight while running an operational unit of an enterprise.
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="892"/>
-   <Column name="RectRight" value="912"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="649"/>
+   <Column name="RectRight" value="800"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{89210958-88ee-e911-82b5-063154845300}" Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="502"/>
-   <Column name="RectRight" value="522"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="369"/>
+   <Column name="RectRight" value="520"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{89210958-88ee-e911-82b5-063154845300}" Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-368"/>
-   <Column name="RectLeft" value="420"/>
-   <Column name="RectRight" value="440"/>
-   <Column name="RectBottom" value="-430"/>
+   <Column name="RectTop" value="-197"/>
+   <Column name="RectLeft" value="310"/>
+   <Column name="RectRight" value="520"/>
+   <Column name="RectBottom" value="-265"/>
    <Extension Diagram_ID="{89210958-88ee-e911-82b5-063154845300}" Object_ID="{70a78445-90ee-e911-82b5-063154845300}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-368"/>
+   <Column name="RectTop" value="-197"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-417"/>
+   <Column name="RectRight" value="195"/>
+   <Column name="RectBottom" value="-265"/>
    <Extension Diagram_ID="{89210958-88ee-e911-82b5-063154845300}" Object_ID="{c105d8d0-90ee-e911-82b5-063154845300}"/>
   </Row>
  </Table>

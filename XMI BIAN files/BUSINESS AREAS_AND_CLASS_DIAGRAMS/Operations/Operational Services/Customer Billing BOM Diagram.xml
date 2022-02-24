@@ -382,44 +382,44 @@ Worksteps as Behaviour Qualifier Type: The main worksteps to be followed in the 
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="461"/>
-   <Column name="RectRight" value="481"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="340"/>
+   <Column name="RectRight" value="491"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{1d56d703-22d6-e911-8296-06e1705194c6}" Object_ID="{7fa3e892-2b81-e911-823e-06e80039c878}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-384"/>
-   <Column name="RectLeft" value="451"/>
-   <Column name="RectRight" value="471"/>
-   <Column name="RectBottom" value="-440"/>
+   <Column name="RectTop" value="-204"/>
+   <Column name="RectLeft" value="332"/>
+   <Column name="RectRight" value="526"/>
+   <Column name="RectBottom" value="-272"/>
    <Extension Diagram_ID="{1d56d703-22d6-e911-8296-06e1705194c6}" Object_ID="{75da39db-22d6-e911-8296-06e1705194c6}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-607"/>
+   <Column name="RectTop" value="-313"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-651"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-381"/>
    <Extension Diagram_ID="{1d56d703-22d6-e911-8296-06e1705194c6}" Object_ID="{a90a7c61-497d-e911-823e-069ad1a2e648}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-230"/>
-   <Column name="RectLeft" value="967"/>
-   <Column name="RectRight" value="1042"/>
-   <Column name="RectBottom" value="-298"/>
+   <Column name="RectTop" value="-128"/>
+   <Column name="RectLeft" value="703"/>
+   <Column name="RectRight" value="936"/>
+   <Column name="RectBottom" value="-385"/>
    <Extension Diagram_ID="{1d56d703-22d6-e911-8296-06e1705194c6}" Object_ID="{506d0b29-0568-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{1d56d703-22d6-e911-8296-06e1705194c6}" Object_ID="{f701c099-2b81-e911-823e-06e80039c878}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-607"/>
-   <Column name="RectLeft" value="425"/>
-   <Column name="RectRight" value="445"/>
-   <Column name="RectBottom" value="-652"/>
+   <Column name="RectTop" value="-313"/>
+   <Column name="RectLeft" value="314"/>
+   <Column name="RectRight" value="467"/>
+   <Column name="RectBottom" value="-381"/>
    <Extension Diagram_ID="{1d56d703-22d6-e911-8296-06e1705194c6}" Object_ID="{1803596c-6675-e911-823e-064d1e9fbc72}"/>
   </Row>
  </Table>

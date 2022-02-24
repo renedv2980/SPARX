@@ -232,38 +232,38 @@ A registry of items recording key reference information and properties relating 
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-353"/>
-   <Column name="RectLeft" value="440"/>
-   <Column name="RectRight" value="460"/>
-   <Column name="RectBottom" value="-400"/>
+   <Column name="RectTop" value="-189"/>
+   <Column name="RectLeft" value="325"/>
+   <Column name="RectRight" value="485"/>
+   <Column name="RectBottom" value="-257"/>
    <Extension Diagram_ID="{f0c10980-ced7-e911-82a8-0667cb2841e8}" Object_ID="{9f7ffac8-cfd7-e911-82a8-0667cb2841e8}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-353"/>
-   <Column name="RectLeft" value="830"/>
-   <Column name="RectRight" value="850"/>
-   <Column name="RectBottom" value="-398"/>
+   <Column name="RectTop" value="-189"/>
+   <Column name="RectLeft" value="605"/>
+   <Column name="RectRight" value="756"/>
+   <Column name="RectBottom" value="-257"/>
    <Extension Diagram_ID="{f0c10980-ced7-e911-82a8-0667cb2841e8}" Object_ID="{2cf128b8-cfd7-e911-82a8-0667cb2841e8}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-353"/>
+   <Column name="RectTop" value="-189"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-398"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-257"/>
    <Extension Diagram_ID="{f0c10980-ced7-e911-82a8-0667cb2841e8}" Object_ID="{063a0dcf-0561-e911-8237-068e13695e26}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-46"/>
-   <Column name="RectLeft" value="430"/>
-   <Column name="RectRight" value="450"/>
-   <Column name="RectBottom" value="-90"/>
+   <Column name="RectTop" value="-38"/>
+   <Column name="RectLeft" value="317"/>
+   <Column name="RectRight" value="469"/>
+   <Column name="RectBottom" value="-106"/>
    <Extension Diagram_ID="{f0c10980-ced7-e911-82a8-0667cb2841e8}" Object_ID="{0120d195-d877-e911-823e-067f69a9229a}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="809"/>
-   <Column name="RectRight" value="829"/>
-   <Column name="RectBottom" value="-75"/>
+   <Column name="RectLeft" value="590"/>
+   <Column name="RectRight" value="741"/>
+   <Column name="RectBottom" value="-99"/>
    <Extension Diagram_ID="{f0c10980-ced7-e911-82a8-0667cb2841e8}" Object_ID="{f09a608f-d877-e911-823e-067f69a9229a}"/>
   </Row>
  </Table>

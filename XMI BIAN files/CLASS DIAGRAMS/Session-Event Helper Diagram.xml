@@ -206,24 +206,24 @@ e.g. login, failure..."/>
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-307"/>
-   <Column name="RectLeft" value="472"/>
-   <Column name="RectRight" value="501"/>
-   <Column name="RectBottom" value="-356"/>
+   <Column name="RectTop" value="-166"/>
+   <Column name="RectLeft" value="348"/>
+   <Column name="RectRight" value="514"/>
+   <Column name="RectBottom" value="-265"/>
    <Extension Diagram_ID="{0d68441d-ff9b-e911-827a-06f79ea59412}" Object_ID="{10a63256-ff9b-e911-827a-06f79ea59412}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="483"/>
-   <Column name="RectRight" value="503"/>
-   <Column name="RectBottom" value="-75"/>
+   <Column name="RectLeft" value="355"/>
+   <Column name="RectRight" value="507"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{0d68441d-ff9b-e911-827a-06f79ea59412}" Object_ID="{66bab5d1-0056-e911-8237-060aad038e48}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-307"/>
+   <Column name="RectTop" value="-166"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="59"/>
-   <Column name="RectBottom" value="-354"/>
+   <Column name="RectRight" value="189"/>
+   <Column name="RectBottom" value="-265"/>
    <Extension Diagram_ID="{0d68441d-ff9b-e911-827a-06f79ea59412}" Object_ID="{f5145a15-138d-e911-823e-067b7da9d714}"/>
   </Row>
  </Table>

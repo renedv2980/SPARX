@@ -241,23 +241,23 @@ A security mechanism for verifying: 1) the identity of an individual or other en
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="456"/>
-   <Column name="RectRight" value="476"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="337"/>
+   <Column name="RectRight" value="488"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-353"/>
+   <Column name="RectTop" value="-188"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="90"/>
-   <Column name="RectBottom" value="-418"/>
+   <Column name="RectRight" value="252"/>
+   <Column name="RectBottom" value="-393"/>
    <Extension Diagram_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" Object_ID="{bebec468-0dbd-e911-8291-066cb8d4b6e8}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-353"/>
-   <Column name="RectLeft" value="398"/>
-   <Column name="RectRight" value="434"/>
-   <Column name="RectBottom" value="-422"/>
+   <Column name="RectTop" value="-188"/>
+   <Column name="RectLeft" value="295"/>
+   <Column name="RectRight" value="530"/>
+   <Column name="RectBottom" value="-309"/>
    <Extension Diagram_ID="{5090bb3e-b5d7-e911-82a8-0667cb2841e8}" Object_ID="{11b0a31a-0991-e911-823e-06f3e7d1f9c0}"/>
   </Row>
  </Table>

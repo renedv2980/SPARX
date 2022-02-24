@@ -1033,101 +1033,101 @@ examples: payment instruction, withdrawal instruction, blocking instruction, acc
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-338"/>
-   <Column name="RectLeft" value="1082"/>
-   <Column name="RectRight" value="1102"/>
-   <Column name="RectBottom" value="-387"/>
+   <Column name="RectTop" value="-181"/>
+   <Column name="RectLeft" value="786"/>
+   <Column name="RectRight" value="953"/>
+   <Column name="RectBottom" value="-249"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{c7bdeac5-2d3e-eb11-82e3-06c3221d56f9}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-338"/>
-   <Column name="RectLeft" value="609"/>
-   <Column name="RectRight" value="664"/>
-   <Column name="RectBottom" value="-396"/>
+   <Column name="RectTop" value="-181"/>
+   <Column name="RectLeft" value="445"/>
+   <Column name="RectRight" value="645"/>
+   <Column name="RectBottom" value="-370"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{059e1fae-2d3e-eb11-82e3-06c3221d56f9}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-1184"/>
-   <Column name="RectLeft" value="1103"/>
-   <Column name="RectRight" value="1123"/>
-   <Column name="RectBottom" value="-1228"/>
+   <Column name="RectTop" value="-597"/>
+   <Column name="RectLeft" value="801"/>
+   <Column name="RectRight" value="952"/>
+   <Column name="RectBottom" value="-665"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{69ad2f0a-0061-e911-8237-068e13695e26}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-830"/>
-   <Column name="RectLeft" value="619"/>
-   <Column name="RectRight" value="639"/>
-   <Column name="RectBottom" value="-884"/>
+   <Column name="RectTop" value="-423"/>
+   <Column name="RectLeft" value="453"/>
+   <Column name="RectRight" value="637"/>
+   <Column name="RectBottom" value="-491"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{0d387ab2-203e-eb11-82e3-06c3221d56f9}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-453"/>
+   <Column name="RectTop" value="-238"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="63"/>
-   <Column name="RectBottom" value="-502"/>
+   <Column name="RectRight" value="196"/>
+   <Column name="RectBottom" value="-352"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{20e6b6b2-c33e-eb11-82e3-06c2d615494b}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-799"/>
-   <Column name="RectLeft" value="1105"/>
-   <Column name="RectRight" value="1125"/>
-   <Column name="RectBottom" value="-844"/>
+   <Column name="RectTop" value="-408"/>
+   <Column name="RectLeft" value="802"/>
+   <Column name="RectRight" value="953"/>
+   <Column name="RectBottom" value="-476"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{9fe05cf9-fd60-e911-8237-068e13695e26}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="615"/>
-   <Column name="RectRight" value="637"/>
-   <Column name="RectBottom" value="-92"/>
+   <Column name="RectLeft" value="450"/>
+   <Column name="RectRight" value="662"/>
+   <Column name="RectBottom" value="-106"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{48cf20c2-353e-eb11-82e3-06c3221d56f9}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-1138"/>
-   <Column name="RectLeft" value="609"/>
-   <Column name="RectRight" value="637"/>
-   <Column name="RectBottom" value="-1200"/>
+   <Column name="RectTop" value="-574"/>
+   <Column name="RectLeft" value="445"/>
+   <Column name="RectRight" value="658"/>
+   <Column name="RectBottom" value="-673"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{044360a2-203e-eb11-82e3-06c3221d56f9}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-1164"/>
-   <Column name="RectLeft" value="272"/>
-   <Column name="RectRight" value="292"/>
-   <Column name="RectBottom" value="-1208"/>
+   <Column name="RectTop" value="-587"/>
+   <Column name="RectLeft" value="203"/>
+   <Column name="RectRight" value="355"/>
+   <Column name="RectBottom" value="-655"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{5708a70e-fd6f-e911-8237-06309b11004c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-284"/>
-   <Column name="RectLeft" value="282"/>
-   <Column name="RectRight" value="302"/>
-   <Column name="RectBottom" value="-328"/>
+   <Column name="RectTop" value="-155"/>
+   <Column name="RectLeft" value="211"/>
+   <Column name="RectRight" value="362"/>
+   <Column name="RectBottom" value="-223"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{dd3cc0aa-0a68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-830"/>
-   <Column name="RectLeft" value="282"/>
-   <Column name="RectRight" value="302"/>
-   <Column name="RectBottom" value="-874"/>
+   <Column name="RectTop" value="-423"/>
+   <Column name="RectLeft" value="211"/>
+   <Column name="RectRight" value="362"/>
+   <Column name="RectBottom" value="-491"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{7effad6e-9965-e911-8237-06eba4258fe0}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-45"/>
-   <Column name="RectLeft" value="277"/>
-   <Column name="RectRight" value="297"/>
-   <Column name="RectBottom" value="-90"/>
+   <Column name="RectTop" value="-38"/>
+   <Column name="RectLeft" value="207"/>
+   <Column name="RectRight" value="358"/>
+   <Column name="RectBottom" value="-106"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{b2f7829a-0a68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-68"/>
-   <Column name="RectLeft" value="1094"/>
-   <Column name="RectRight" value="1114"/>
-   <Column name="RectBottom" value="-113"/>
+   <Column name="RectTop" value="-49"/>
+   <Column name="RectLeft" value="794"/>
+   <Column name="RectRight" value="945"/>
+   <Column name="RectBottom" value="-117"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{0cbfb7fb-5997-e911-823e-065ba593ba6e}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-530"/>
-   <Column name="RectLeft" value="282"/>
-   <Column name="RectRight" value="302"/>
-   <Column name="RectBottom" value="-574"/>
+   <Column name="RectTop" value="-276"/>
+   <Column name="RectLeft" value="211"/>
+   <Column name="RectRight" value="362"/>
+   <Column name="RectBottom" value="-344"/>
    <Extension Diagram_ID="{6f846e0c-cf01-eb11-82be-068d3e7acd11}" Object_ID="{c80f2ee6-f097-e911-827a-06d89370a58e}"/>
   </Row>
  </Table>

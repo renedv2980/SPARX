@@ -339,37 +339,37 @@ Example values are Product Eligibility, Product Usage, Product Coverage, Product
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="494"/>
-   <Column name="RectRight" value="514"/>
-   <Column name="RectBottom" value="-79"/>
+   <Column name="RectLeft" value="363"/>
+   <Column name="RectRight" value="529"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{2707aa97-ffce-e911-8296-06bf764cb4bc}" Object_ID="{7d149499-2076-e911-823e-065f1d1f71b2}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-415"/>
+   <Column name="RectTop" value="-219"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-459"/>
+   <Column name="RectRight" value="183"/>
+   <Column name="RectBottom" value="-287"/>
    <Extension Diagram_ID="{2707aa97-ffce-e911-8296-06bf764cb4bc}" Object_ID="{1803596c-6675-e911-823e-064d1e9fbc72}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-815"/>
-   <Column name="RectLeft" value="504"/>
-   <Column name="RectRight" value="524"/>
-   <Column name="RectBottom" value="-863"/>
+   <Column name="RectTop" value="-415"/>
+   <Column name="RectLeft" value="370"/>
+   <Column name="RectRight" value="536"/>
+   <Column name="RectBottom" value="-483"/>
    <Extension Diagram_ID="{2707aa97-ffce-e911-8296-06bf764cb4bc}" Object_ID="{3ff20cc9-4c7d-e911-823e-069ad1a2e648}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-415"/>
-   <Column name="RectLeft" value="893"/>
-   <Column name="RectRight" value="913"/>
-   <Column name="RectBottom" value="-459"/>
+   <Column name="RectTop" value="-219"/>
+   <Column name="RectLeft" value="650"/>
+   <Column name="RectRight" value="801"/>
+   <Column name="RectBottom" value="-287"/>
    <Extension Diagram_ID="{2707aa97-ffce-e911-8296-06bf764cb4bc}" Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-415"/>
-   <Column name="RectLeft" value="504"/>
-   <Column name="RectRight" value="524"/>
-   <Column name="RectBottom" value="-459"/>
+   <Column name="RectTop" value="-219"/>
+   <Column name="RectLeft" value="370"/>
+   <Column name="RectRight" value="522"/>
+   <Column name="RectBottom" value="-287"/>
    <Extension Diagram_ID="{2707aa97-ffce-e911-8296-06bf764cb4bc}" Object_ID="{f9de363b-b986-e911-823e-062687e6a904}"/>
   </Row>
  </Table>

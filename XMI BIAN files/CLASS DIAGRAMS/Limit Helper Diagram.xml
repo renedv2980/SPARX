@@ -432,38 +432,38 @@ e.g., the number of transaction per week, the amount of money allowed to withdra
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-399"/>
-   <Column name="RectLeft" value="524"/>
-   <Column name="RectRight" value="547"/>
-   <Column name="RectBottom" value="-443"/>
+   <Column name="RectTop" value="-212"/>
+   <Column name="RectLeft" value="385"/>
+   <Column name="RectRight" value="536"/>
+   <Column name="RectBottom" value="-287"/>
    <Extension Diagram_ID="{b0b23378-9ad1-ea11-82b1-061e3979cf2c}" Object_ID="{57f8fc8b-9bd1-ea11-82b1-061e3979cf2c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-399"/>
-   <Column name="RectLeft" value="40"/>
-   <Column name="RectRight" value="82"/>
-   <Column name="RectBottom" value="-454"/>
+   <Column name="RectTop" value="-212"/>
+   <Column name="RectLeft" value="37"/>
+   <Column name="RectRight" value="225"/>
+   <Column name="RectBottom" value="-355"/>
    <Extension Diagram_ID="{b0b23378-9ad1-ea11-82b1-061e3979cf2c}" Object_ID="{d16b937e-8ad1-ea11-82b1-061e3979cf2c}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="524"/>
-   <Column name="RectRight" value="544"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="385"/>
+   <Column name="RectRight" value="536"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{b0b23378-9ad1-ea11-82b1-061e3979cf2c}" Object_ID="{823053bb-a486-e911-823e-062687e6a904}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{b0b23378-9ad1-ea11-82b1-061e3979cf2c}" Object_ID="{dd3cc0aa-0a68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-830"/>
-   <Column name="RectLeft" value="61"/>
-   <Column name="RectRight" value="81"/>
-   <Column name="RectBottom" value="-878"/>
+   <Column name="RectTop" value="-423"/>
+   <Column name="RectLeft" value="52"/>
+   <Column name="RectRight" value="216"/>
+   <Column name="RectBottom" value="-491"/>
    <Extension Diagram_ID="{b0b23378-9ad1-ea11-82b1-061e3979cf2c}" Object_ID="{5fcdac7c-9bd1-ea11-82b1-061e3979cf2c}"/>
   </Row>
  </Table>

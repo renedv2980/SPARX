@@ -339,38 +339,38 @@ Tests are a collection of one or more tests evaluations that can be made to cert
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-384"/>
+   <Column name="RectTop" value="-204"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-428"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-272"/>
    <Extension Diagram_ID="{921b4c31-adfe-ea11-82be-068606da443b}" Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-369"/>
-   <Column name="RectLeft" value="862"/>
+   <Column name="RectTop" value="-196"/>
+   <Column name="RectLeft" value="627"/>
    <Column name="RectRight" value="902"/>
-   <Column name="RectBottom" value="-449"/>
+   <Column name="RectBottom" value="-333"/>
    <Extension Diagram_ID="{921b4c31-adfe-ea11-82be-068606da443b}" Object_ID="{aa3775f9-ac64-eb11-82e9-06f39716fe97}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="862"/>
-   <Column name="RectRight" value="897"/>
-   <Column name="RectBottom" value="-77"/>
+   <Column name="RectLeft" value="627"/>
+   <Column name="RectRight" value="787"/>
+   <Column name="RectBottom" value="-151"/>
    <Extension Diagram_ID="{921b4c31-adfe-ea11-82be-068606da443b}" Object_ID="{cf97fd7e-ff76-e911-823e-0663ff6583c4}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="472"/>
-   <Column name="RectRight" value="492"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="348"/>
+   <Column name="RectRight" value="499"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{921b4c31-adfe-ea11-82be-068606da443b}" Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-384"/>
-   <Column name="RectLeft" value="472"/>
-   <Column name="RectRight" value="492"/>
-   <Column name="RectBottom" value="-431"/>
+   <Column name="RectTop" value="-204"/>
+   <Column name="RectLeft" value="348"/>
+   <Column name="RectRight" value="509"/>
+   <Column name="RectBottom" value="-272"/>
    <Extension Diagram_ID="{921b4c31-adfe-ea11-82be-068606da443b}" Object_ID="{95698957-ab64-eb11-82e9-06f39716fe97}"/>
   </Row>
  </Table>

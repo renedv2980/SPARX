@@ -714,66 +714,66 @@ A characteristic of transaction which refers to the LifecycleDate of transaction
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-122"/>
-   <Column name="RectLeft" value="335"/>
-   <Column name="RectRight" value="355"/>
-   <Column name="RectBottom" value="-166"/>
+   <Column name="RectTop" value="-75"/>
+   <Column name="RectLeft" value="249"/>
+   <Column name="RectRight" value="400"/>
+   <Column name="RectBottom" value="-143"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{c80f2ee6-f097-e911-827a-06d89370a58e}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-368"/>
-   <Column name="RectLeft" value="674"/>
-   <Column name="RectRight" value="709"/>
-   <Column name="RectBottom" value="-453"/>
+   <Column name="RectTop" value="-196"/>
+   <Column name="RectLeft" value="492"/>
+   <Column name="RectRight" value="780"/>
+   <Column name="RectBottom" value="-317"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{88012e35-01b6-ea11-829f-0603c04a45dc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-384"/>
-   <Column name="RectLeft" value="209"/>
-   <Column name="RectRight" value="237"/>
-   <Column name="RectBottom" value="-455"/>
+   <Column name="RectTop" value="-204"/>
+   <Column name="RectLeft" value="158"/>
+   <Column name="RectRight" value="400"/>
+   <Column name="RectBottom" value="-302"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{1599031b-02b6-ea11-829f-0603c04a45dc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-753"/>
-   <Column name="RectLeft" value="177"/>
-   <Column name="RectRight" value="208"/>
-   <Column name="RectBottom" value="-841"/>
+   <Column name="RectTop" value="-385"/>
+   <Column name="RectLeft" value="136"/>
+   <Column name="RectRight" value="434"/>
+   <Column name="RectBottom" value="-491"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{aec897ae-02b6-ea11-829f-0603c04a45dc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-107"/>
+   <Column name="RectTop" value="-67"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-151"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-135"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{dd3cc0aa-0a68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-799"/>
-   <Column name="RectLeft" value="1169"/>
-   <Column name="RectRight" value="1217"/>
-   <Column name="RectBottom" value="-865"/>
+   <Column name="RectTop" value="-408"/>
+   <Column name="RectLeft" value="848"/>
+   <Column name="RectRight" value="1071"/>
+   <Column name="RectBottom" value="-574"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{5708a70e-fd6f-e911-8237-06309b11004c}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="630"/>
-   <Column name="RectRight" value="659"/>
-   <Column name="RectBottom" value="-82"/>
+   <Column name="RectLeft" value="461"/>
+   <Column name="RectRight" value="638"/>
+   <Column name="RectBottom" value="-128"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{0cbfb7fb-5997-e911-823e-065ba593ba6e}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-791"/>
-   <Column name="RectLeft" value="697"/>
-   <Column name="RectRight" value="745"/>
-   <Column name="RectBottom" value="-871"/>
+   <Column name="RectTop" value="-404"/>
+   <Column name="RectLeft" value="509"/>
+   <Column name="RectRight" value="780"/>
+   <Column name="RectBottom" value="-570"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{a58c8a29-5a96-e911-823e-062d75b50cca}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-61"/>
-   <Column name="RectLeft" value="914"/>
-   <Column name="RectRight" value="934"/>
-   <Column name="RectBottom" value="-105"/>
+   <Column name="RectTop" value="-45"/>
+   <Column name="RectLeft" value="665"/>
+   <Column name="RectRight" value="816"/>
+   <Column name="RectBottom" value="-113"/>
    <Extension Diagram_ID="{1304b18f-ce8a-ea11-8295-0638ef697122}" Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
   </Row>
  </Table>

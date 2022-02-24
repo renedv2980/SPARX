@@ -306,38 +306,38 @@ this can be ratio, qualifier, amounts, etc."/>
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-392"/>
+   <Column name="RectTop" value="-207"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="72"/>
-   <Column name="RectBottom" value="-466"/>
+   <Column name="RectRight" value="285"/>
+   <Column name="RectBottom" value="-351"/>
    <Extension Diagram_ID="{7b4edf68-4d5a-eb11-82e3-0696e5690f15}" Object_ID="{d5fe9f6e-7b80-e911-823e-061de61e9206}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-45"/>
-   <Column name="RectLeft" value="572"/>
-   <Column name="RectRight" value="592"/>
-   <Column name="RectBottom" value="-90"/>
+   <Column name="RectTop" value="-37"/>
+   <Column name="RectLeft" value="420"/>
+   <Column name="RectRight" value="571"/>
+   <Column name="RectBottom" value="-105"/>
    <Extension Diagram_ID="{7b4edf68-4d5a-eb11-82e3-0696e5690f15}" Object_ID="{fd698611-6380-e911-823e-061de61e9206}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="102"/>
-   <Column name="RectRight" value="122"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="82"/>
+   <Column name="RectRight" value="233"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{7b4edf68-4d5a-eb11-82e3-0696e5690f15}" Object_ID="{ea36f45c-1656-e911-8237-060aad038e48}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-376"/>
-   <Column name="RectLeft" value="1261"/>
-   <Column name="RectRight" value="1281"/>
-   <Column name="RectBottom" value="-421"/>
+   <Column name="RectTop" value="-200"/>
+   <Column name="RectLeft" value="915"/>
+   <Column name="RectRight" value="1066"/>
+   <Column name="RectBottom" value="-268"/>
    <Extension Diagram_ID="{7b4edf68-4d5a-eb11-82e3-0696e5690f15}" Object_ID="{b2aa1a32-b2a4-e911-8284-06aa98c8c004}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-368"/>
-   <Column name="RectLeft" value="556"/>
-   <Column name="RectRight" value="605"/>
-   <Column name="RectBottom" value="-420"/>
+   <Column name="RectTop" value="-196"/>
+   <Column name="RectLeft" value="408"/>
+   <Column name="RectRight" value="582"/>
+   <Column name="RectBottom" value="-362"/>
    <Extension Diagram_ID="{7b4edf68-4d5a-eb11-82e3-0696e5690f15}" Object_ID="{30a4d16d-6080-e911-823e-061de61e9206}"/>
   </Row>
  </Table>

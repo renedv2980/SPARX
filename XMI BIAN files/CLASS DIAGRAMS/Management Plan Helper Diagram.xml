@@ -227,24 +227,24 @@ A plan is a set of intended actions, through which one intends to achieve a goal
  </Table>
  <Table name="t_diagramobjects">
   <Row>
-   <Column name="RectTop" value="-322"/>
+   <Column name="RectTop" value="-173"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="65"/>
-   <Column name="RectBottom" value="-423"/>
+   <Column name="RectRight" value="375"/>
+   <Column name="RectBottom" value="-294"/>
    <Extension Diagram_ID="{8442de01-08e0-ea11-82b8-0606337a4559}" Object_ID="{a03dec86-6675-e911-823e-064d1e9fbc72}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-299"/>
-   <Column name="RectLeft" value="735"/>
-   <Column name="RectRight" value="777"/>
-   <Column name="RectBottom" value="-359"/>
+   <Column name="RectTop" value="-162"/>
+   <Column name="RectLeft" value="537"/>
+   <Column name="RectRight" value="743"/>
+   <Column name="RectBottom" value="-306"/>
    <Extension Diagram_ID="{8442de01-08e0-ea11-82b8-0606337a4559}" Object_ID="{97698d8d-6675-e911-823e-064d1e9fbc72}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="219"/>
-   <Column name="RectRight" value="239"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="166"/>
+   <Column name="RectRight" value="317"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{8442de01-08e0-ea11-82b8-0606337a4559}" Object_ID="{6472836c-9c67-eb11-82f6-06f5e4900cbd}"/>
   </Row>
  </Table>

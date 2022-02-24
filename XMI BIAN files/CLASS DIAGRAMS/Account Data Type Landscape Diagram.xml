@@ -22,7 +22,7 @@ https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
    <Column name="Object_Type" value="Enumeration"/>
    <Column name="Diagram_ID" value="0"/>
    <Column name="Name" value="AccountBalanceTypeValues"/>
-   <Column name="Note" value="Specifies the nature of the balance and much more changes zesed keer en nog een keer en nog eensxxxxxxxxyyyyyyyyyyyyyyyyyyyyy
+   <Column name="Note" value="Specifies the nature of the balance.
 https://www.iso20022.org/standardsrepository/type/BalanceTypeCode
 "/>
    <Column name="Backcolor" value="16777215"/>
@@ -324,39 +324,46 @@ Account which is used for settlement. (ISO20022)"/>
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="104"/>
-   <Column name="RectRight" value="171"/>
-   <Column name="RectBottom" value="-81"/>
+   <Column name="RectLeft" value="83"/>
+   <Column name="RectRight" value="258"/>
+   <Column name="RectBottom" value="-258"/>
    <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{545a0927-0948-ea11-8289-062ea3b80f12}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-479"/>
-   <Column name="RectLeft" value="104"/>
-   <Column name="RectRight" value="138"/>
-   <Column name="RectBottom" value="-545"/>
+   <Column name="RectTop" value="-251"/>
+   <Column name="RectLeft" value="83"/>
+   <Column name="RectRight" value="306"/>
+   <Column name="RectBottom" value="-365"/>
    <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{23352ade-7dba-e911-8291-062b31ab758a}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-744"/>
-   <Column name="RectLeft" value="41"/>
-   <Column name="RectRight" value="74"/>
-   <Column name="RectBottom" value="-793"/>
+   <Column name="RectTop" value="-381"/>
+   <Column name="RectLeft" value="38"/>
+   <Column name="RectRight" value="206"/>
+   <Column name="RectBottom" value="-495"/>
    <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{03716973-2e94-e911-823e-069871e4ec9c}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-999"/>
+   <Column name="RectTop" value="-506"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="84"/>
-   <Column name="RectBottom" value="-1050"/>
+   <Column name="RectRight" value="204"/>
+   <Column name="RectBottom" value="-688"/>
    <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{1b1a87d5-8a99-e911-827a-063e87e1daa2}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-333"/>
-   <Column name="RectLeft" value="451"/>
-   <Column name="RectRight" value="492"/>
-   <Column name="RectBottom" value="-392"/>
+   <Column name="RectTop" value="-179"/>
+   <Column name="RectLeft" value="332"/>
+   <Column name="RectRight" value="534"/>
+   <Column name="RectBottom" value="-316"/>
    <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{dac054e1-2394-e911-823e-069871e4ec9c}"/>
   </Row>
-   </Table>
+  <Row>
+   <Column name="RectTop" value="-496"/>
+   <Column name="RectLeft" value="346"/>
+   <Column name="RectRight" value="544"/>
+   <Column name="RectBottom" value="-587"/>
+   <Extension Diagram_ID="{0eb64d4f-8279-ea11-828d-065e1ffb056c}" Object_ID="{ab464743-2294-e911-823e-069871e4ec9c}"/>
+  </Row>
+ </Table>
  <Table name="t_diagramlinks"/>
 </Package>

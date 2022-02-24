@@ -253,37 +253,37 @@ Deliverables as Behaviour Qualifier Type: A collection of one or more deliverabl
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="76"/>
-   <Column name="RectRight" value="96"/>
-   <Column name="RectBottom" value="-75"/>
+   <Column name="RectLeft" value="63"/>
+   <Column name="RectRight" value="214"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{638d9108-084c-ea11-8289-06e1bff5c596}" Object_ID="{fb61a357-9f51-ea11-8289-06269fe19394}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-46"/>
-   <Column name="RectLeft" value="539"/>
-   <Column name="RectRight" value="559"/>
-   <Column name="RectBottom" value="-90"/>
+   <Column name="RectTop" value="-37"/>
+   <Column name="RectLeft" value="395"/>
+   <Column name="RectRight" value="547"/>
+   <Column name="RectBottom" value="-105"/>
    <Extension Diagram_ID="{638d9108-084c-ea11-8289-06e1bff5c596}" Object_ID="{5be8a55c-a051-ea11-8289-06269fe19394}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-384"/>
-   <Column name="RectLeft" value="539"/>
-   <Column name="RectRight" value="559"/>
-   <Column name="RectBottom" value="-464"/>
+   <Column name="RectTop" value="-204"/>
+   <Column name="RectLeft" value="395"/>
+   <Column name="RectRight" value="669"/>
+   <Column name="RectBottom" value="-272"/>
    <Extension Diagram_ID="{638d9108-084c-ea11-8289-06e1bff5c596}" Object_ID="{ac47e728-a651-ea11-8289-06269fe19394}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-707"/>
-   <Column name="RectLeft" value="42"/>
-   <Column name="RectRight" value="62"/>
-   <Column name="RectBottom" value="-752"/>
+   <Column name="RectTop" value="-362"/>
+   <Column name="RectLeft" value="39"/>
+   <Column name="RectRight" value="190"/>
+   <Column name="RectBottom" value="-430"/>
    <Extension Diagram_ID="{638d9108-084c-ea11-8289-06e1bff5c596}" Object_ID="{1aeced65-0b68-e911-8237-06dd5e24f7bc}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-384"/>
+   <Column name="RectTop" value="-204"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-434"/>
+   <Column name="RectRight" value="199"/>
+   <Column name="RectBottom" value="-272"/>
    <Extension Diagram_ID="{638d9108-084c-ea11-8289-06e1bff5c596}" Object_ID="{4d204e29-084c-ea11-8289-06e1bff5c596}"/>
   </Row>
  </Table>

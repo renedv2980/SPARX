@@ -354,51 +354,51 @@ A Party Relationship is a connection between an instance of a Party and two or m
  <Table name="t_diagramobjects">
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="1346"/>
-   <Column name="RectRight" value="1366"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="975"/>
+   <Column name="RectRight" value="1126"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{f701c099-2b81-e911-823e-06e80039c878}"/>
   </Row>
   <Row>
    <Column name="RectTop" value="-30"/>
-   <Column name="RectLeft" value="1051"/>
-   <Column name="RectRight" value="1071"/>
-   <Column name="RectBottom" value="-74"/>
+   <Column name="RectLeft" value="763"/>
+   <Column name="RectRight" value="914"/>
+   <Column name="RectBottom" value="-98"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{7fa3e892-2b81-e911-823e-06e80039c878}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-560"/>
+   <Column name="RectTop" value="-291"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-605"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-359"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{6f53fd37-8257-e911-8237-0645314e65ac}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-284"/>
+   <Column name="RectTop" value="-155"/>
    <Column name="RectLeft" value="30"/>
-   <Column name="RectRight" value="50"/>
-   <Column name="RectBottom" value="-328"/>
+   <Column name="RectRight" value="181"/>
+   <Column name="RectBottom" value="-223"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{70959fdb-be56-e911-8237-06ecaacb4c68}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-630"/>
-   <Column name="RectLeft" value="482"/>
-   <Column name="RectRight" value="525"/>
-   <Column name="RectBottom" value="-694"/>
+   <Column name="RectTop" value="-325"/>
+   <Column name="RectLeft" value="354"/>
+   <Column name="RectRight" value="573"/>
+   <Column name="RectBottom" value="-469"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{5bec4388-9dd7-e911-82a8-0667cb2841e8}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-253"/>
-   <Column name="RectLeft" value="1030"/>
-   <Column name="RectRight" value="1050"/>
-   <Column name="RectBottom" value="-313"/>
+   <Column name="RectTop" value="-140"/>
+   <Column name="RectLeft" value="748"/>
+   <Column name="RectRight" value="952"/>
+   <Column name="RectBottom" value="-208"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{ce309a05-9cd7-e911-82a8-0667cb2841e8}"/>
   </Row>
   <Row>
-   <Column name="RectTop" value="-253"/>
-   <Column name="RectLeft" value="462"/>
-   <Column name="RectRight" value="491"/>
-   <Column name="RectBottom" value="-329"/>
+   <Column name="RectTop" value="-140"/>
+   <Column name="RectLeft" value="340"/>
+   <Column name="RectRight" value="597"/>
+   <Column name="RectBottom" value="-238"/>
    <Extension Diagram_ID="{a6cdfe9f-99d7-e911-82a8-0667cb2841e8}" Object_ID="{fa6490a1-8957-e911-8237-0645314e65ac}"/>
   </Row>
  </Table>
